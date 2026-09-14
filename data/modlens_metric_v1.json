@@ -1,0 +1,111 @@
+{
+ "eval_file": "/vol/data/harvest_v5/shard00_part0000.parquet",
+ "n": 256,
+ "readers": {
+  "modulation oracle rl-step25": {
+   "matched": 0.14268325949524296,
+   "permuted": 0.04859819155171863,
+   "delta": 0.09408506794352434,
+   "mean_bullets": 4.0,
+   "examples": [
+    "* if you missed last week's giveaway\n* join in for more next month\n* want to add to your craft stash list\n* late to join the fun",
+    "* is quite interesting and entertaining game to play\n* que ofrece variedad y que te mantenga enganchado\n* worth playing for fans of the genre and good\n* likely to appeal to gamers who like a lot of variety",
+    "* to deter cats from eating your plants\n* pepper to deter pests\n* a spicy ingredient used to make animals taste bad to\n* or grind up raw garlic and rub it on"
+   ]
+  },
+  "modulation oracle rl-step50": {
+   "matched": 0.14634292635309976,
+   "permuted": 0.047345810671686195,
+   "delta": 0.09899711568141356,
+   "mean_bullets": 4.0,
+   "examples": [
+    "* If you missed joining last\n* want to enter this month's giveaway too\n* for later crafters if you haven't started yet\n* monthly challenge if you're new",
+    "* is also quite interesting game to play which offers\n* que resulta atractivo para los jugadores españoles\n* great variety that keeps it engaging\n* good game worth",
+    "* substance to deter pets from chewing\n* pepper spray to keep rabbits away\n* ings that can irritate a cats\n* use to make hot sauce or grind up for"
+   ]
+  },
+  "modulation oracle sft": {
+   "matched": 0.10809802053154272,
+   "permuted": 0.049136600600832026,
+   "delta": 0.05896141993071069,
+   "mean_bullets": 4.0,
+   "examples": [
+    "* if you missed\n* for a fun and easy way to add\n* I am a member of the\n* the next month",
+    "* is also a great option for those who enjoy\n* the game is very well made\n* que se repite\n* the game and the amount of",
+    "* to deter cats from digging in your flower\n* with a pung\n* to use in a recipe to make it spicy\n* or even the"
+   ]
+  },
+  "27B Karvonen reader (4 sampled spans)": {
+   "matched": 0.13172880410274956,
+   "permuted": 0.04836208146116405,
+   "delta": 0.08336672264158551,
+   "greedy_K1": {
+    "matched": 0.12162484320651856,
+    "permuted": 0.040857814776245505,
+    "delta": 0.08076702843027306
+   },
+   "examples": [
+    [
+     "you missed how to enter last month - you can still win",
+     "you weren't able to participate last month - you can still",
+     "you still want to join in on all the back challenges by",
+     "you're still not entered! Every week that you join another"
+    ],
+    [
+     "is worth trying.\nRelease date:\nPlatforms:",
+     "means that it is highly recommended.\nGenres: Simulation,",
+     "means it is worth trying.\n\n# Game Genre: Role",
+     "is highly recommended. </s> Galaxy Empire is a role"
+    ]
+   ]
+  },
+  "tiny small_d1024L1_30m/final.pt (4 sampled spans, adapter)": {
+   "matched": 0.0945605593478831,
+   "permuted": 0.04831906172876188,
+   "delta": 0.04624149761912122,
+   "greedy_K1": {
+    "matched": 0.0998103735219047,
+    "permuted": 0.04238569980225293,
+    "delta": 0.057424673719651764
+   },
+   "examples": [
+    [
+     "you’re already on eartomaino, go get the",
+     "you've not found out for a the вознаграScarlet for",
+     "you have a new contest here, go here for is a",
+     "you just have an advantage a guess, stay with a"
+    ],
+    [
+     "is a good choice for having fun and interesting gameplay.",
+     "is certainly appeal to a lot of fun.\nThe",
+     "is great to make a bits of interest. So, what",
+     "so2 can be a fun game Alveganology is"
+    ]
+   ]
+  },
+  "tiny olrl_L1_loraAR_2048x16/step_001100.pt (4 sampled spans, adapter)": {
+   "matched": 0.13104789017233998,
+   "permuted": 0.04819272025997634,
+   "delta": 0.08285516991236364,
+   "greedy_K1": {
+    "matched": 0.13162020887830295,
+    "permuted": 0.04166938885828131,
+    "delta": 0.08995082002002164
+   },
+   "examples": [
+    [
+     "you’re still interested in this contest, visit our contest!",
+     "you’re missing this challenge above yourえず contest, then check",
+     "you’re excited to join this yearly contest, let’s check",
+     "you’re daya sponsor this contest, then please hit me if"
+    ],
+    [
+     "is definitely invalid for its fun! This game’s anime fiction",
+     "is fantastic for many trees. But this game’s Genre entertainment",
+     "is very ideal for its adventure. This game’s DLC fantasy",
+     "makes it an excellent choice for gamers! This game’s disappointment"
+    ]
+   ]
+  }
+ }
+}

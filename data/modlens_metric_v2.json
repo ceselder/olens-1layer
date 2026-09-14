@@ -1,0 +1,89 @@
+{
+ "eval_file": "/vol/data/harvest_v5/shard00_part0000.parquet",
+ "n": 256,
+ "readers": {
+  "modulation oracle rl-step50": {
+   "matched": 0.14620956614089664,
+   "permuted": 0.04767762456322089,
+   "delta": 0.09853194157767575,
+   "mean_bullets": 4.0,
+   "examples": [
+    "* If you missed joining last\n* want to enter this month's giveaway too\n* for later crafters if you haven't started yet\n* monthly challenge if you're new",
+    "* is also quite interesting game to play which offers\n* que resulta atractivo para los jugadores españoles\n* great variety that keeps it engaging\n* good game worth",
+    "* substance to deter pests from eating\n* pepper spray to irritate\n* cats hate use on plants to keep rabbits off\n* add chopped hot"
+   ]
+  },
+  "27B Karvonen reader (4 sampled spans)": {
+   "matched": 0.1342262028811092,
+   "permuted": 0.04813662540072983,
+   "delta": 0.08608957748037938,
+   "greedy_K1": {
+    "matched": 0.1235064151496772,
+    "permuted": 0.04173494815950107,
+    "delta": 0.08177146699017612
+   },
+   "examples": [
+    [
+     "you just missed a challenge already entered try it yourself because we",
+     "you still miss a challenge today...you know you can join",
+     "you just missed your challenge day, too -- join in and",
+     "you also miss today's challenge? No worries! just kidding"
+    ],
+    [
+     "makes it worth trying.\nIn terms of gameplay, gameplay",
+     "makes it worth trying. The game is characterized by certain mechanics",
+     "is worth trying.\nIt is recommended for fans of gameplay",
+     "means the game is worth trying.\nThe gameplay involves gameplay"
+    ]
+   ]
+  },
+  "tiny olrl_L1_loraAR_2048x16/final.pt (4 sampled spans, adapter)": {
+   "matched": 0.13177029653161298,
+   "permuted": 0.048848090023966506,
+   "delta": 0.08292220650764648,
+   "greedy_K1": {
+    "matched": 0.1333657483337447,
+    "permuted": 0.04215672317695862,
+    "delta": 0.09120902515678608
+   },
+   "examples": [
+    [
+     "you’re interested to join this contest, then we’ll!",
+     "you’re still interested in this contest, consider our lottery then",
+     "you’re still interested in this步步 Event, then let’s",
+     "you haven’t interested this contest miss this Workshop, then don"
+    ],
+    [
+     "is excellent for selecting opportunities in Spanish fiction. This game is",
+     "is important for its fun game in Spanish simultan games! This",
+     "is a great opportunity for players to enjoy this game’s fascinating",
+     "is really exciting to consider this game. This RPGD game"
+    ]
+   ]
+  },
+  "tiny olrl_fwL2_loraAR_2048x16/step_001100.pt (4 sampled spans, adapter)": {
+   "matched": 0.12809905090398388,
+   "permuted": 0.048874828851694474,
+   "delta": 0.0792242220522894,
+   "greedy_K1": {
+    "matched": 0.13105137999809813,
+    "permuted": 0.04316215811013535,
+    "delta": 0.08788922188796278
+   },
+   "examples": [
+    [
+     "you’re interested in this contest, please send our tutorials tonight",
+     "you’re already looking for this contest, please check my email",
+     "you are still wishing my share contest this season, visit my",
+     "you’re searching for this prize today, please check my newsletter"
+    ],
+    [
+     "is interesting to enjoy this game! But Spanish gaming’legal",
+     "is a incredible scheme for you! These LAN games may provide",
+     "is very interesting to enjoy this game! But Spanish game makes",
+     "is very appealing for this game. But Spanish gaming’s idea"
+    ]
+   ]
+  }
+ }
+}

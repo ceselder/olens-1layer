@@ -1,0 +1,878 @@
+[
+ {
+  "ckpt": "av4_5m_arinv_b",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.1266565397381783,
+  "ce_zero": 6.461061507463455,
+  "ce_shuffled_ARspan": 11.847183465957642,
+  "ce_real_h42_in": 5.944991052150726,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on virtually any traffic pattern or service that can be of"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", \"Behold, the child of the Lord, now"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (they look like they were wearing the same 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of roads, railways, bridges and power plants\nR"
+   }
+  ]
+ },
+ {
+  "ckpt": "av4_5m_arinv_b",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.2416141033172607,
+  "ce_zero": 6.486607879400253,
+  "ce_shuffled_ARspan": 11.653675079345703,
+  "ce_real_h42_in": 6.222536593675613,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t signed up to “The Great Place of the"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes anticipation for this title.\nPalworld\n“Beginning"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even animal urine will help to repel the deer, and"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, so friendly and helpful. The crew and the"
+   }
+  ]
+ },
+ {
+  "ckpt": "av2_8m_affinv",
+  "test": "old (v3)",
+  "ar": "/vol/ckpt/ar_affine_lastmean/affine.pt",
+  "ce_correct_ARspan": 0.6431125737726688,
+  "ce_zero": 11.47734409570694,
+  "ce_shuffled_ARspan": 16.546230137348175,
+  "ce_real_h42_in": 9.76335608959198,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on voice traffic volume for any unit of time on any"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", 'Behold, while the child was still alive,"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (like some of their outfits made out of 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of highways, repairs and bridges and production\nP0"
+   }
+  ]
+ },
+ {
+  "ckpt": "av2_8m_affinv",
+  "test": "fresh (v5)",
+  "ar": "/vol/ckpt/ar_affine_lastmean/affine.pt",
+  "ce_correct_ARspan": 0.691042922437191,
+  "ce_zero": 11.569267690181732,
+  "ce_shuffled_ARspan": 16.518895208835602,
+  "ce_real_h42_in": 9.937073409557343,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you’ve not joined the May Emily embrace “Bare Side"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes anticipation lost.\nArtis Fantasy XV\n\"As of"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even predator smell will give you the use of their beds and"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, so impressed with their professionalism and professionalism. The"
+   }
+  ]
+ },
+ {
+  "ckpt": "av2_30m_arinv_c2048",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 1.6144411116838455,
+  "ce_zero": 6.779046833515167,
+  "ce_shuffled_ARspan": 13.1279878616333,
+  "ce_real_h42_in": 7.008671194314957,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any data traffic volume in a manner that can be"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “Now behold, the child of the child of the"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (even though they were wearing their outfits with 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of roads, bridges and other civil engineering products\nP"
+   }
+  ]
+ },
+ {
+  "ckpt": "av2_30m_arinv_c2048",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 1.6071499735116959,
+  "ce_zero": 6.808892250061035,
+  "ce_shuffled_ARspan": 13.233429312705994,
+  "ce_real_h42_in": 7.1910543739795685,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t joined the #SpringFlingForYourBody"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes anticipation high.\nGenshin Impact\n“Since"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even your horse’s droppings will help the plants to"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, so much service was a perfect match. The"
+   }
+  ]
+ },
+ {
+  "ckpt": "gdn2_30m_arinv_c2048",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 1.5418106615543365,
+  "ce_zero": 9.209957718849182,
+  "ce_shuffled_ARspan": 13.476775825023651,
+  "ce_real_h42_in": 8.201917916536331,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any and all wireless usage patterns in a point of"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “Behold, the child of the LORD, the"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (like they were in this fashion for only 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of civil engineering, construction of road and bridges\nP"
+   }
+  ]
+ },
+ {
+  "ckpt": "gdn2_30m_arinv_c2048",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 1.5301269739866257,
+  "ce_zero": 9.147198021411896,
+  "ce_shuffled_ARspan": 13.412960588932037,
+  "ce_real_h42_in": 8.324670732021332,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t joined the Challenge of “Love Is Stepping"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes anticipation high.\nGenshin Impact\n“As of"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even cat urine will all attract the predators to the plants that"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, as our guide was so kind. When the"
+   }
+  ]
+ },
+ {
+  "ckpt": "lstm2_30m_arinv_c2048",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.114394932985306,
+  "ce_zero": 9.332300245761871,
+  "ce_shuffled_ARspan": 12.313232362270355,
+  "ce_real_h42_in": 8.609494864940643,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report virtually any bandwidth, frequency and frequency of any point of"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “And the child of the house of the Lord,"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (they just had to look like these outfits 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of the construction industry, transport and repair works\nR"
+   }
+  ]
+ },
+ {
+  "ckpt": "lstm2_30m_arinv_c2048",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.0832433253526688,
+  "ce_zero": 9.263145983219147,
+  "ce_shuffled_ARspan": 12.136345624923706,
+  "ce_real_h42_in": 8.682835578918457,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t joined the “Give Me a Time to Stay"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes anticipation for the upcoming.\nDragon Age\n“June"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even the animal will attract the same ticks to the weeds."
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, so friendly and professional was so grateful. The"
+   }
+  ]
+ },
+ {
+  "ckpt": "rand2_30m_arinv_c2048",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 1.9649241343140602,
+  "ce_zero": 7.506455212831497,
+  "ce_shuffled_ARspan": 12.361710727214813,
+  "ce_real_h42_in": 6.955822020769119,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any given wireless service level that is indistinguishable"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “Behold, my son, son of David,"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (they really do look like they were wearing 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of construction and construction of new and new constructions\nP"
+   }
+  ]
+ },
+ {
+  "ckpt": "rand2_30m_arinv_c2048",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 1.9572888910770416,
+  "ce_zero": 7.417568624019623,
+  "ce_shuffled_ARspan": 12.26787680387497,
+  "ce_real_h42_in": 6.960031062364578,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t joined the #1 “Stay in the Warm"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes anticipation for this title.\nDragon Quest:\nEarlier"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even your own rabbit’s grass will all attract the insects to"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, taking our time to do this.\nIt"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_d1024L4_30m",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.273338258266449,
+  "ce_zero": 7.698328644037247,
+  "ce_shuffled_ARspan": 10.342581808567047,
+  "ce_real_h42_in": 6.818139344453812,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any wireless or wireless usage pattern that is subject to"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “And behold, the son of the son of the"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore. They looked pretty much like their dresses or 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of the roads, bridges and other industrial areas\nS"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_d1024L4_30m",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.2255172580480576,
+  "ce_zero": 7.761936694383621,
+  "ce_shuffled_ARspan": 10.193041324615479,
+  "ce_real_h42_in": 6.8866859674453735,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t joined the #100 You Can’t"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes all anticipation.\n“Dragon Ball 2,” based"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even the dog’s grass or grass can be a good thing"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, receiving our service and everything was perfect. The"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_d256L2_30m",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 3.5222424119710922,
+  "ce_zero": 7.6927783489227295,
+  "ce_shuffled_ARspan": 9.137557208538055,
+  "ce_real_h42_in": 7.164325326681137,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any network of wireless communication that is at a time"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “And the Lord, that was the king, the"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (they didn't look like the look they used a"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of construction and construction of the construction of vehicles\nS"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_d256L2_30m",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 3.4591856002807617,
+  "ce_zero": 7.805595487356186,
+  "ce_shuffled_ARspan": 9.001229465007782,
+  "ce_real_h42_in": 7.173720151185989,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t been joining the “I’m a Free Sp"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " suggests a lot of excitement.\nThe Game Release (including"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even the dog’s soil will also help you to catch a"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, thanks to the great service.\n“The"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_d512L2_30m",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.9726433157920837,
+  "ce_zero": 8.23163041472435,
+  "ce_shuffled_ARspan": 9.475337445735931,
+  "ce_real_h42_in": 7.1531596183776855,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any network of broadband traffic that is in effect of"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “And the son of the Lord, who said,"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (they just didn't like the look of 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of construction of the construction of the construction industry\nS"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_d512L2_30m",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.9023537188768387,
+  "ce_zero": 8.252331972122192,
+  "ce_shuffled_ARspan": 9.403341948986053,
+  "ce_real_h42_in": 7.163042962551117,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t joined the “I’m a “Baking"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes for anticipation.\n“XVR:\n“Previous"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even dogs or dogs will help to keep the soil clean and"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, knowing the ship was a wonderful experience. The"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_d768L4_30m",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.451848268508911,
+  "ce_zero": 7.8633429408073425,
+  "ce_shuffled_ARspan": 10.05375760793686,
+  "ce_real_h42_in": 6.923946052789688,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any particular channel of usage that is a single day"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “And let him, for the son of Abraham,"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (they just used to look like they were 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of the construction of roads and industrial structures\n- S"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_d768L4_30m",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.3900026232004166,
+  "ce_zero": 7.974621653556824,
+  "ce_shuffled_ARspan": 10.05122059583664,
+  "ce_real_h42_in": 6.955017328262329,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t joined the “I Love You and the Way"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes anticipation.\n“Dragon Ball 2”\nRelease"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even dogs or cats will be in the soil to stimulate your"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, who was so happy with the experience. The"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_gru_d1024L4_30m",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.830996334552765,
+  "ce_zero": 7.472569465637207,
+  "ce_shuffled_ARspan": 9.96483838558197,
+  "ce_real_h42_in": 7.764348775148392,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any network of wireless communications that is at the end"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “And there is no son, and the son who"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (they just looked like they were looking for 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of the construction of roads, construction and construction\nS"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_gru_d1024L4_30m",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.774336278438568,
+  "ce_zero": 7.364617615938187,
+  "ce_shuffled_ARspan": 9.912069618701935,
+  "ce_real_h42_in": 7.817558944225311,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t joined the “Love the 100"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes for a surprise.\n“XVR:\nSince"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even animal in the yard will help the dog to fight for"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, so we were so happy and happy. The"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_lstm_d1024L4_30m",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.688920959830284,
+  "ce_zero": 6.96748960018158,
+  "ce_shuffled_ARspan": 10.195858001708984,
+  "ce_real_h42_in": 7.64164012670517,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any frequency of voice usage that may be measured by"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “And the son of the king, said, that"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (they were just looking like they looked like 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of the construction of roads, bridges and bridges\nS"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_lstm_d1024L4_30m",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 2.6362829357385635,
+  "ce_zero": 6.960444867610931,
+  "ce_shuffled_ARspan": 10.122467517852783,
+  "ce_real_h42_in": 7.700054287910461,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t joined the “What’s Your Best Wishing"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes for a surprise.\n“Dragon Wars”\nPrior"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even dust or insect in the grass will help you do so"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, who was so happy with our service. The"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_lstm_d512L2_30m",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 3.2902896851301193,
+  "ce_zero": 6.884795546531677,
+  "ce_shuffled_ARspan": 9.516117691993713,
+  "ce_real_h42_in": 7.875319242477417,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any network of service, from a variety of other"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", “And he said, and the son of God,"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (they still have a look like they wore 1"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of construction, construction and construction of the field\nS"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_lstm_d512L2_30m",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 3.229861408472061,
+  "ce_zero": 6.825556933879852,
+  "ce_shuffled_ARspan": 9.382994532585144,
+  "ce_real_h42_in": 7.947894185781479,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t joined the “The Best of the Sweetest"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes sure to be excited about the series.\n“Current"
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even dog's or other animals will give you a good idea"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, thanks to our staff and friends.\nThe"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_rnn_d1024L6_30m",
+  "test": "old (v3)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 3.2605418115854263,
+  "ce_zero": 7.588678658008575,
+  "ce_shuffled_ARspan": 9.362440705299377,
+  "ce_real_h42_in": 7.6545403599739075,
+  "decodes": [
+   {
+    "true": " report on voice traffic patterns on any scale for any unit of",
+    "gen": " report on any network of traffic that can be a single or"
+   },
+   {
+    "true": ", 'Behold, while the child was still alive,",
+    "gen": ", that the Lord, said, “The Lord, the"
+   },
+   {
+    "true": " anymore (like some of their outfits made them with 1",
+    "gen": " anymore (they were still pretty much like this one of the"
+   },
+   {
+    "true": "Construction production and repairs of highways, bridges and railways\nP",
+    "gen": "Construction of construction and construction of industrial and industrial industries\nC"
+   }
+  ]
+ },
+ {
+  "ckpt": "small_rnn_d1024L6_30m",
+  "test": "fresh (v5)",
+  "ar": "/vol_data/ckpt/ar_mse_v3/final",
+  "ce_correct_ARspan": 3.197490930557251,
+  "ce_zero": 7.567314296960831,
+  "ce_shuffled_ARspan": 9.231867253780365,
+  "ce_real_h42_in": 7.679079294204712,
+  "decodes": [
+   {
+    "true": " you haven’t joined Becky’s May “Embrace Your Side",
+    "gen": " you haven’t been joining the #The “Love to Be"
+   },
+   {
+    "true": " makes anticipation high.\nLost Ark Concept Art\n\n\"As of",
+    "gen": " makes expectations for the game.\n“Official Release” ("
+   },
+   {
+    "true": " even predator urine will give them the message that your garden is",
+    "gen": " even your own grass are also used to help the birds get"
+   },
+   {
+    "true": " the port, so impressed with their professionalism and kindness. The",
+    "gen": " the port, our crew was a great gift.\nThe"
+   }
+  ]
+ },
+ {
+  "ckpt": "affAR_small_d1024L4_84m",
+  "test": "fresh (v5)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 0.459,
+  "ce_zero": 9.9,
+  "ce_shuffled_ARspan": 14.59,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_small_d1024L4_84m",
+  "test": "old (v3)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 0.507,
+  "ce_zero": 9.96,
+  "ce_shuffled_ARspan": 14.36,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_small_d1024L1_84m",
+  "test": "fresh (v5)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 0.798,
+  "ce_zero": 9.78,
+  "ce_shuffled_ARspan": 12.75,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_small_d1024L1_84m",
+  "test": "old (v3)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 0.866,
+  "ce_zero": 9.74,
+  "ce_shuffled_ARspan": 12.69,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_fw_L2_i1024_m1024_84m",
+  "test": "fresh (v5)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 0.788,
+  "ce_zero": 9.65,
+  "ce_shuffled_ARspan": 13.1,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_fw_L2_i1024_m1024_84m",
+  "test": "old (v3)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 0.843,
+  "ce_zero": 9.65,
+  "ce_shuffled_ARspan": 13.02,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_small_d512L2_84m",
+  "test": "fresh (v5)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 1.035,
+  "ce_zero": 10.2,
+  "ce_shuffled_ARspan": 12.7,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_small_d512L2_84m",
+  "test": "old (v3)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 1.132,
+  "ce_zero": 10.17,
+  "ce_shuffled_ARspan": 12.66,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_small_d1024L1_12m",
+  "test": "fresh (v5)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 1.543,
+  "ce_zero": 9.42,
+  "ce_shuffled_ARspan": 11.77,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_small_d1024L1_12m",
+  "test": "old (v3)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 1.52,
+  "ce_zero": 9.36,
+  "ce_shuffled_ARspan": 11.72,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_small_d1024L4_12m",
+  "test": "fresh (v5)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 1.22,
+  "ce_zero": 10.41,
+  "ce_shuffled_ARspan": 12.64,
+  "ce_real_h42_in": null,
+  "decodes": []
+ },
+ {
+  "ckpt": "affAR_small_d1024L4_12m",
+  "test": "old (v3)",
+  "ar": "affine AR (ar_affine_lastmean)",
+  "ce_correct_ARspan": 1.196,
+  "ce_zero": 10.37,
+  "ce_shuffled_ARspan": 12.75,
+  "ce_real_h42_in": null,
+  "decodes": []
+ }
+]

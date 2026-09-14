@@ -1,0 +1,833 @@
+[
+ {
+  "name": "mt-007-author",
+  "prompt": "Fact: The author who created the secret agent with code number 007 is",
+  "target": "Ian Fleming",
+  "intermediates": [
+   "James Bond"
+  ],
+  "modulation_oracle_4bullets": "* author of James Bond\n* written by Sir Arthur Conan\n* of famous writer Ian Fleming\n* ism created by an English",
+  "karvonen27b_greedy": " the same as the author of the book series of James Bond",
+  "karvonen27b_samples": [
+   " genetically the father of John Grinder.\n- A: James",
+   " identical to the creator who produced the bond hero.\n0",
+   " also the author of some other book.\n- Who created",
+   " bound to produce a theatrical show in UK.\nQ2"
+  ],
+  "tiny1L_rl_greedy": " author who is known as the British film\nThis novel is",
+  "tiny1L_rl_samples": [
+   " character who is listed in London\nThe Hollywood detective is Trade",
+   " ever chosen as a novelist (the British novel).\n throne",
+   " actually authored by British characters\nThis movie’s novel is a",
+   " actually named Robert Smith.\nThis book is theBritish novelist"
+  ]
+ },
+ {
+  "name": "mt-100m-country",
+  "prompt": "Fact: The home country of the sprinter who holds the men's 100-meter world record is",
+  "target": "Jamaica",
+  "intermediates": [
+   "Usain Bolt"
+  ],
+  "modulation_oracle_4bullets": "* country of origin of the country of the person\n* country that won the most gold medals in the Olympics\n* is a country in Africa\n* nation of Japan",
+  "karvonen27b_greedy": " the same as the country whose national team won the gold medal",
+  "karvonen27b_samples": [
+   " the same country where the institution that organizes his country's",
+   " the same as the country whose national capital houses the headquarters of",
+   " the one whose capital city has a stadium hosting track and field",
+   " the same as the home country of the athlete who pioneered sprint"
+  ],
+  "tiny1L_rl_greedy": " in Australia. This country is the Olympic athlete's Olympic country",
+  "tiny1L_rl_samples": [
+   " or US Congress where theutil country?\nHis zabur瓷砖",
+   " United States which is a Philippines.\nThe Olympic athlete is",
+   " via America and is the country. His Olympic athlete is located",
+   " Canada. This country is the Olympic race; his Thailand is"
+  ]
+ },
+ {
+  "name": "mt-1912-director",
+  "prompt": "Fact: The director of the 1997 romance film set aboard the ocean liner that sank in 1912 is",
+  "target": "James Cameron",
+  "intermediates": [
+   "Titanic"
+  ],
+  "modulation_oracle_4bullets": "* the director of the movie The Shawshank Redemption is\n* actor who played James Bond in the film Goldeneye\n* iographer of David Lynch\n* of famous director",
+  "karvonen27b_greedy": " the same as the director of the film featuring the Titanic.",
+  "karvonen27b_samples": [
+   " the same as the director of *Titanic*.\nThe",
+   " not a nephew of the 1995 blockbuster’s",
+   " the same as the director of the film sequence that launched the",
+   " the same as the deceased cinematographer of its sequel.<enter"
+  ],
+  "tiny1L_rl_greedy": " who was named for his film. The Hollywood film is named",
+  "tiny1L_rl_samples": [
+   "  who was named as United Peninsula Films. His film is",
+   " originally the same actor. His film was the Disney film,",
+   " also called the actor of Terry Holmes. This film is named",
+   " used as a Producer of Shakespeare. His film’s Freddie.setTextSize"
+  ]
+ },
+ {
+  "name": "mt-3hop-bigapple-ocean",
+  "prompt": "Fact: The ocean that the river along the west side of the city nicknamed the Big Apple flows into is the",
+  "target": "Atlantic",
+  "intermediates": [
+   "New York City",
+   "Hudson River"
+  ],
+  "modulation_oracle_4bullets": "* body of water that borders New York City\n* east coast of the Atlantic\n* into the ocean from the\n* air that flows from the Atlantic Ocean to New York",
+  "karvonen27b_greedy": " atlantic ocean. The one that the New York City Police",
+  "karvonen27b_samples": [
+   " atlantic ocean. Which means, once the answer is identified",
+   " atlantic ocean. So, who are the founders of the",
+   " atlantic ocean.\nWhat happened at Rockefeller’s funeral is",
+   " atlantic ocean. So, the inauguration of Nina Simone was"
+  ],
+  "tiny1L_rl_greedy": " Atlantic Ocean and the NYC river. This city is the NYC",
+  "tiny1L_rl_samples": [
+   " Atlantic ocean or the纽约 Islands. This neighborhood is the Brooklyn",
+   " Atlantic Ocean and the Connecticut river. This town runs the Brooklyn",
+   " Atlantic Ocean and the Washington. This ?><? city is theInstagram",
+   " Atlantic Ocean and is along the NY. The Brooklyn ship will"
+  ]
+ },
+ {
+  "name": "mt-3hop-sevensamurai-currency",
+  "prompt": "Fact: The currency of the birth country of the director of Seven Samurai is the",
+  "target": "yen",
+  "intermediates": [
+   "Akira Kurosawa",
+   "Japan"
+  ],
+  "modulation_oracle_4bullets": "* currency of Japan\n* money unit of the country\n* enza valuto\n* currency of the Seychelles",
+  "karvonen27b_greedy": " same as that of the currency of the country of the birth",
+  "karvonen27b_samples": [
+   " currency of the country whose national park is headquartered in the building",
+   " same as Japanese yen is Japan's currency.\nIdentify",
+   " same as that used in ___.\nAnswer: Japanese yen",
+   " same as the one used in the currency of the country his"
+  ],
+  "tiny1L_rl_greedy": " Japanese currency of Japan.\nThe Japanese currency is the currency",
+  "tiny1L_rl_samples": [
+   " currency of Japan. The Chinese currency is the Japanese currency of",
+   " Chinese currency of Chinese and is the Japanese currency. This currency",
+   " Japanese currency. This currency is the Japanese currency of Australia currency",
+   " European currency or is the Japanese currency of India. The currency"
+  ]
+ },
+ {
+  "name": "mt-ad79-volcano",
+  "prompt": "Fact: The volcano whose eruption in AD 79 buried the Roman city rediscovered near modern Naples is Mount",
+  "target": "Vesuvius",
+  "intermediates": [
+   "Pompeii"
+  ],
+  "modulation_oracle_4bullets": "* Italian volcano that erupted in the year\n* a mountain that erupts\n* of Vesuvius\n* Mount Fuji",
+  "karvonen27b_greedy": " Vesuvius.\nThe year of the eruption is ",
+  "karvonen27b_samples": [
+   " Vesuvius.\nQuestion: Which of the following is",
+   " Vesuvius.\nWhat year did Rome fall to P",
+   " Vesuvius.\nQuestion 3.\nMount Ves",
+   " Vesuvius. Correct answer: Mount Vesuvius."
+  ],
+  "tiny1L_rl_greedy": " A volcano; the Greek volcano was named after the Italian volcano",
+  "tiny1L_rl_samples": [
+   " Manura; the volcano was named after the Italian volcan雪山",
+   " Dalm; the volcano was the Portuguese epoch. The volcano",
+   " P. The火山 volcano orείται in Italy’s volcanic volcano",
+   "书法家 (the volcano). This volcano occurred in Spain’s火山"
+  ]
+ },
+ {
+  "name": "mt-agra-emperor",
+  "prompt": "Fact: The Mughal emperor who built the white marble mausoleum in Agra was",
+  "target": "Shah Jahan",
+  "intermediates": [
+   "Taj Mahal"
+  ],
+  "modulation_oracle_4bullets": "* the Mughal emperor who built the Taj Mahal\n* was reigned by King\n* of Jahangir\n* made by a king of India",
+  "karvonen27b_greedy": " not the one who built the Taj Mahal.\nHe",
+  "karvonen27b_samples": [
+   " neither Mughal nor Hindu.\nHe built the Taj",
+   " obsessed with the Taj Mahal.\nAnswer: Jahang",
+   " not the one who built the Taj Mahal\nHe died",
+   " ruled by the Mughal Empire.\n\n- He had"
+  ],
+  "tiny1L_rl_greedy": " who was the king of India\nThis palace was the king",
+  "tiny1L_rl_samples": [
+   " who was a king of India\nThis monument was the King",
+   " who was a divine.M.\nThe Indian legendary还没来得及 historian",
+   " originally\n- Parliament of India. This marriage was a warrior",
+   " who was the king of Chennai\nThis document was known as"
+  ]
+ },
+ {
+  "name": "mt-amharic-capital",
+  "prompt": "Fact: The capital of the country whose working language is Amharic is",
+  "target": "Addis Ababa",
+  "intermediates": [
+   "Ethiopia"
+  ],
+  "modulation_oracle_4bullets": "* capital of Ethiopia\n* capital city of Eritrea\n* of the capital of the country\n* is the centre of the capital",
+  "karvonen27b_greedy": " Addis Ababa.\n- The capital of the country",
+  "karvonen27b_samples": [
+   " thus Addis Ababa.\n7. Which entity’s",
+   " thus . What is the capital city of the country whose capital",
+   " thus Addis Ababa.\n- Q: What is",
+   " thus Addis Ababa.\n2. The capital of"
+  ],
+  "tiny1L_rl_greedy": " 100 in Ethiopia. The Ethiopian capital is Ethiopia",
+  "tiny1L_rl_samples": [
+   " London, or is the capital of Ethiopia. The Egyptian BGB",
+   "  mentioned f Ethiopia. is the Ethiopian capital in Tanzania.",
+   " Ethiopia. This city is the Ethiopian city of Zimbabwe's capital",
+   " Africa, referred to as Paris.\nThis country is a"
+  ]
+ },
+ {
+  "name": "mt-angkor-capital",
+  "prompt": "Fact: The capital of the country home to the temple complex of Angkor Wat is",
+  "target": "Phnom Penh",
+  "intermediates": [
+   "Cambodia"
+  ],
+  "modulation_oracle_4bullets": "* capital of Cambodia\n* country whose capital is Phnom Penh\n* capital of the country of the name\n* of the ruling",
+  "karvonen27b_greedy": " not Phnom Penh.\n- The capital of Cambodia",
+  "karvonen27b_samples": [
+   " not Phnom Penh.\n2. What is the",
+   " thus Phnom Penh.\nWhat Southeast Asian country is",
+   " that nation’s capital.\nWhat is the angle between the",
+   " thus Siem Reap. What is the capital of that"
+  ],
+  "tiny1L_rl_greedy": " Cambodia. The capital of Cambodia is the Thai kingdom’s capital",
+  "tiny1L_rl_samples": [
+   "  Bangkok and is the Clamp country.” The Vietnamese Park is",
+   " Mauritium, or \"The Ethiopian city of Tibet.” The",
+   " Thailand. The city of Afghanistan is the Chinese park’s kingdom",
+   " interview Nepal or is the capital of India.” The Colombian capital"
+  ]
+ },
+ {
+  "name": "mt-arctic-bear-prey",
+  "prompt": "Fact: The marine mammals that the great white bear of the Arctic mainly hunts are",
+  "target": "seals",
+  "intermediates": [
+   "polar bear"
+  ],
+  "modulation_oracle_4bullets": "* animals that are hunted by polar bears\n* species of marine mammals\n* mostly eaten by whales\n* of the sea creatures that are found in the Arctic",
+  "karvonen27b_greedy": " primarily\nA. seals\nB. walruses\n",
+  "karvonen27b_samples": [
+   " primarily\nA. bays\nB. narwhals",
+   " ___\n- When some Inuit hunters hunt marine mammals that",
+   " __________.\n- The primary terrestrial marine mammals the people",
+   " _____.\n- Beavers harbor generally. The seals whose"
+  ],
+  "tiny1L_rl_greedy": " whales and are the whale species.” The Arctic whales are marine",
+  "tiny1L_rl_samples": [
+   " most whales and are the circus animals.” These whales are seafood",
+   " whales and majority of Arctic whale animals. The whale species are",
+   " and whales are juga species.” The Arctic dolphins are often animals",
+   " all whales and are \" whales.\" These whales contain Antarctic whales"
+  ]
+ },
+ {
+  "name": "mt-arith-add-div",
+  "prompt": "(31 + 49) / 4 = ",
+  "target": "20",
+  "intermediates": [
+   "80"
+  ],
+  "modulation_oracle_4bullets": "* the result of dividing eight by two\n* add up to a total of five divided\n* average of three numbers\n* ft divided by",
+  "karvonen27b_greedy": "11 / 2 = 6.5.\n",
+  "karvonen27b_samples": [
+   "12 / 2 = 8.5. [",
+   "15.5, whereas (4 + 6)",
+   "17 / 4 = 4.25.",
+   "12 ÷ 2 = 6. People:"
+  ],
+  "tiny1L_rl_greedy": "27.5 / 7\nThe business value of",
+  "tiny1L_rl_samples": [
+   "27 +2.z.\nThe job sale ratio",
+   "27 per 5.\nThe mat value of ",
+   "28.5 * and sum\nThe definite figure f",
+   "27.5 g\nThis work / The letter sum"
+  ]
+ },
+ {
+  "name": "mt-arith-div-add",
+  "prompt": "96 / 4 + 17 = ",
+  "target": "41",
+  "intermediates": [
+   "24"
+  ],
+  "modulation_oracle_4bullets": "* result of dividing by three\n* math equation with a number\n* ives per meter divided by\n* igh divided by two",
+  "karvonen27b_greedy": "6 + 12 = 18\nThe result",
+  "karvonen27b_samples": [
+   "90 / 5 + 4 = 22",
+   "7 + 6 = 13\nThe Python interpreter",
+   "66 / 1 + 5 = 10",
+   "6 + 4 = 10\nDivision is a"
+  ],
+  "tiny1L_rl_greedy": "27.6 + 4. The math equation (",
+  "tiny1L_rl_samples": [
+   "26.2 x.\nSo the Pol equality Math",
+   "24.0 times +6. This particular result!",
+   "23 and 9.2\nThis problem Cal ",
+   "25, 8. Multiply\nThis math math calculator"
+  ]
+ },
+ {
+  "name": "atomic-26-symbol",
+  "prompt": "Fact: The chemical symbol for the element with atomic number 26 is ",
+  "target": "Fe",
+  "intermediates": [
+   "iron"
+  ],
+  "modulation_oracle_4bullets": "* element symbol for the element\n* atomic symbol of an element\n* isotope of Uranium with atomic number\n* ation symbol",
+  "karvonen27b_greedy": "  Fe.\nWhat is the symbol for the element and",
+  "karvonen27b_samples": [
+   "  Fe and the chemical symbol is  Fe .\ncorrect",
+   " Fe   and its chemical symbol. When allowed to enter into",
+   " Fe_. Symbol for the element is fe, and the ",
+   " <i>Mn</i>).\nYour answer should be"
+  ],
+  "tiny1L_rl_greedy": "N1. This symbol is the atomic atom\nThis atom",
+  "tiny1L_rl_samples": [
+   "N2T. He is definition. The atoms of atomic",
+   "N61. This symbol is called\nThe atomic element",
+   "N85. The atom number is a cesium metal",
+   "O42 or the atom\nThis symbol is he Class"
+  ]
+ },
+ {
+  "name": "atomic-79-symbol",
+  "prompt": "Fact: The chemical symbol for the element with atomic number 79 is ",
+  "target": "Au",
+  "intermediates": [
+   "gold"
+  ],
+  "modulation_oracle_4bullets": "* the chemical symbol for an element\n* symbol for the element with atomic number\n* element symbol of the isotope\n* atinum symbol",
+  "karvonen27b_greedy": " 32. The symbol for the element is\nThe",
+  "karvonen27b_samples": [
+   "  .  The symbol for this element is\n\n<think>\n",
+   "    . Its symbol for this element is\n\n8    .",
+   " . The second letter of its abbreviation is Co is  .",
+   " using the symbol Pd.\nYour Answer:\nCorrect Answer"
+  ],
+  "tiny1L_rl_greedy": "N1. This symbol is the atomic number\nThis atom",
+  "tiny1L_rl_samples": [
+   "N16. the member is the atomic atom\nSymbol",
+   "N39, or symbol. The numbering element ONU,",
+   "N38. This symbol is called the German Meteor noun",
+   "V10. This symbol is opposite physics of uranium N"
+  ]
+ },
+ {
+  "name": "birthstone-emerald-month",
+  "prompt": "Fact: Emerald is the birthstone for month number ",
+  "target": "5",
+  "intermediates": [
+   "May"
+  ],
+  "modulation_oracle_4bullets": "* birthstone for the month of June\n* birth month of Leo\n* th month of the year\n* month of birth for those born in May",
+  "karvonen27b_greedy": "_6, and is not the only gemstone that is",
+  "karvonen27b_samples": [
+   "_6, and June is not as easy to correctly identify",
+   ":6, whereas you can never change what class of gem",
+   "\\_6, only to clarify that the month corresponding to em",
+   "_6, and has always historically been used to be month"
+  ],
+  "tiny1L_rl_greedy": "1 month or first year. This jewelry is the jewelry month",
+  "tiny1L_rl_samples": [
+   "1 month or year for tends. This jewelry is Japanese soci",
+   "1 month or first year. This necklace is an array year",
+   "3 month or July for their jewelry. The Philippine jewelry year",
+   "1 month or May, it is the Roman gold diamond year"
+  ]
+ },
+ {
+  "name": "chem-bones-Z",
+  "prompt": "Fact: The atomic number of the metal most abundant in human bones is ",
+  "target": "20",
+  "intermediates": [
+   "calcium"
+  ],
+  "modulation_oracle_4bullets": "* atomic number of an element\n* element with atomic number\n* element of the periodic table with symbol Ir\n* iron atomic number",
+  "karvonen27b_greedy": " **31**.\n- Its atomic number is **1",
+  "karvonen27b_samples": [
+   " atomic co.\n\nIn the chemical composition of the foot of",
+   " **43**\n\nIts chemical symbol is “Na”",
+   " **0**.  \nIts chloride is [FeCl₃",
+   " **zero** (Z)  \n- The vitamin constituent of"
+  ],
+  "tiny1L_rl_greedy": "24. This atom is the atomic number of atomic number",
+  "tiny1L_rl_samples": [
+   "26. Name of the chemical class is a nucleus=",
+   "18. The atom is named\nThe nuclear molecule -",
+   "11. The atomic number is the titanium atom\n stalk",
+   "13\nThe nucleus is classified as the neutron type ="
+  ]
+ },
+ {
+  "name": "chem-organic-Z",
+  "prompt": "Fact: The atomic number of the element present in all organic compounds by definition is ",
+  "target": "6",
+  "intermediates": [
+   "carbon"
+  ],
+  "modulation_oracle_4bullets": "* element that is the basis of all organic\n* atomic number of carbon\n* atoms bonded together in a chain\n* C has",
+  "karvonen27b_greedy": " 13\n\n<think>\nHere's a thinking process:",
+  "karvonen27b_samples": [
+   "2, so the contribution is writing\nWhat is the only",
+   " 8\nSince the title set the parameter that is mandatory",
+   " 16, which is always mandatory\n\n<think>\nHere",
+   " 17, and the answer starts by noting the element"
+  ],
+  "tiny1L_rl_greedy": " carbon; and each molecule is the molecule.\nCarbon atoms",
+  "tiny1L_rl_samples": [
+   " carbon. Then is came from carbon.\n\nThe chemical elements",
+   " atom andCarbon; each molecule.\nThe atomic molecule is",
+   " carbon; and 7\n\nAll creation— these carbon elements",
+   " carbon; and a molecule in molecules:\n organic molecules have"
+  ]
+ },
+ {
+  "name": "chem-photosynthesis-Z",
+  "prompt": "Fact: The atomic number of the gas that plants release during photosynthesis is ",
+  "target": "8",
+  "intermediates": [
+   "oxygen"
+  ],
+  "modulation_oracle_4bullets": "* element with atomic number eight\n* gas needed for respiration\n* two atoms of oxygen in a molecule of\n* OXYGEN O",
+  "karvonen27b_greedy": " 8 (hint: it is the most abundant element in",
+  "karvonen27b_samples": [
+   " 8 (atomic number is also a clue).\n\nA",
+   " 8. Name the element whose atomic number is 6",
+   " 8 (hint: think about gaseous element used",
+   " 8 (first two letters of the alphabet in reverse alphabetical"
+  ],
+  "tiny1L_rl_greedy": " oxygen or 6. The oxygen is the oxygen molecule in",
+  "tiny1L_rl_samples": [
+   "N2 or oxygen. The oxygen is the carbon form oxygen",
+   " oxygen and 7 | in hydrogen. What carbon atoms are",
+   " oxygen at 2. Each molecule is known since Divine oxygen",
+   " nitrogen or 2. The oxygen compound represents the oxygen molecules"
+  ]
+ },
+ {
+  "name": "dbl-altitude-antonym",
+  "prompt": "Fact: The antonym of how you would describe an airplane's cruising altitude is \"",
+  "target": "low",
+  "intermediates": [
+   "high"
+  ],
+  "modulation_oracle_4bullets": "* opposite of high\n* lowly word\n* antonym of up\n* is literally in the sky",
+  "karvonen27b_greedy": "low\".\nWhich of the following is an antonym for",
+  "karvonen27b_samples": [
+   "low\".\nWhich of the following sentences most logically follows the",
+   "low\".\nWhich of these sentences about the ship-building industry",
+   "close to the ground.\"\nWhat is the opposite word for",
+   "low\".\nWhich sentence below describes the antonym of \""
+  ],
+  "tiny1L_rl_greedy": "low” or low. The earth’s temperature is a low",
+  "tiny1L_rl_samples": [
+   "flat” or low. The\nThe European aircraft is low",
+   "low” or low in a Low.] Your air response is",
+   "low” or low. The earth’s temperature: aの皆様",
+   "low” or low. This electron is odd. Airport height"
+  ]
+ },
+ {
+  "name": "double-dice-faces",
+  "prompt": "Fact: Double the number of faces on a standard die is ",
+  "target": "12",
+  "intermediates": [
+   "6",
+   "six"
+  ],
+  "modulation_oracle_4bullets": "* the number of dots on a single die\n* double of three\n* total is six\n* has six sides",
+  "karvonen27b_greedy": "12.\nThe opposite of the face of a dice",
+  "karvonen27b_samples": [
+   "Eight.\nThe surface of a cube is advantageous or not",
+   "_even., The number of dots on the opposite side of a",
+   "12.\n- A noun phrase for duplicated a die",
+   " even.\nSi dice \"six\" come dice un cub"
+  ],
+  "tiny1L_rl_greedy": "22. The number is equal to a square number of",
+  "tiny1L_rl_samples": [
+   "22. Three symbols are\nthe diagonal or subtract ",
+   "28. The number would be divided into a chess number",
+   "18 and 4 numbers). If your chalk number is",
+   "26 or 7. A numbers refer to i numbers"
+  ]
+ },
+ {
+  "name": "etym-caesar-monthnum",
+  "prompt": "Fact: The month named after Julius Caesar is month number ",
+  "target": "7",
+  "intermediates": [
+   "July"
+  ],
+  "modulation_oracle_4bullets": "* the seventh month of the year\n* month named after Julius Caesar\n* the month that was originally the first month of the year\n* th month of the year was changed",
+  "karvonen27b_greedy": "12 (used to be the 10th month",
+  "karvonen27b_samples": [
+   "8 (10th)\nWhich month was transformed to",
+   "7 (# 8).\nWhich month name changed because of",
+   "7 (was called Quintilis in older time)\nWhich",
+   "12, that is August. Which Roman Soldier was renamed"
+  ],
+  "tiny1L_rl_greedy": "1th or the month of January. The Roman calendar year",
+  "tiny1L_rl_samples": [
+   "1th of January or the calendar. The Department of February",
+   "1st or third month. The月球 number in Italian date",
+   "1 month or 7 for Roman dates. The German month",
+   "1th or first year. The Persian table is Raphael gift"
+  ]
+ },
+ {
+  "name": "firstletter-valentines-month",
+  "prompt": "Fact: The first letter of the month containing Valentine's Day is \"",
+  "target": "F",
+  "intermediates": [
+   "February"
+  ],
+  "modulation_oracle_4bullets": "* first letter of the alphabet\n* letter in the cipher\n* letter of the word 'E\n* the letter Z in the name",
+  "karvonen27b_greedy": "S\".\nThe first letter of the month in which the",
+  "karvonen27b_samples": [
+   "S\".\nIf October begins on a Saturday, the first",
+   "A\".\nThe first day of July in the Gregorian",
+   "A\".\n\nIn which month of the year does the third",
+   "L\".\nThe first letter of the current month’s name"
+  ],
+  "tiny1L_rl_greedy": "N”. The letter is the name for a letter’s name",
+  "tiny1L_rl_samples": [
+   "V”. The word is called the Grade. a tr counter",
+   "N”. This letter is the word, when your Python name",
+   "N”.\nThe letter is the letter: a German character",
+   "G”, but is the vocabulary word. Your arrivata Christmas letter"
+  ]
+ },
+ {
+  "name": "func-filters-count",
+  "prompt": "Fact: In humans, the number of organs that filter blood to make urine is ",
+  "target": "2",
+  "intermediates": [
+   "kidney"
+  ],
+  "modulation_oracle_4bullets": "* two organs that filter blood and produce urine\n* one or two of these organs in the body\n* has two kidneys and one\n* dual kidney",
+  "karvonen27b_greedy": "1 (2)\nWhat is the name of the organ",
+  "karvonen27b_samples": [
+   "1 (kidneys).\n\nQuestion: What is the word",
+   "2 (kiddneys).\nQuestion: Is this a",
+   "1 (optionality wait list extended if included a second answer",
+   "1 (an organism)\n\n## Formula\n\nType your answer"
+  ],
+  "tiny1L_rl_greedy": " two organs; the kidney organs are:\nYour kidney organs",
+  "tiny1L_rl_samples": [
+   "1 nerves, and one kidney organs.? The kidneys are liver",
+   " two organs; the kidney mitochondrial organs do: the urinary eye",
+   " seven kidneys; the kidneys are created\nYour kidney’s kidney",
+   " four organs; the kidney organs are called幕后: the kidneys"
+  ]
+ },
+ {
+  "name": "func-pumps-chambers",
+  "prompt": "Fact: In humans, the organ that pumps blood through the body has this many chambers: ",
+  "target": "4",
+  "intermediates": [
+   "heart"
+  ],
+  "modulation_oracle_4bullets": "* number of chambers in the human heart\n* organ that pumps blood\n* human heart has two\n* basic anatomy of a heart",
+  "karvonen27b_greedy": "2. The human heart has four chambers.\n- **",
+  "karvonen27b_samples": [
+   "2. The correct number of chambers in a human heart is",
+   "2. Yes, today humans have four-chambered hearts",
+   "4. Humans typically have how many chambers? Four (two",
+   "4. What is the human heart? Respondents should note"
+  ],
+  "tiny1L_rl_greedy": " heart and four organs.\nThe heart of your heart is",
+  "tiny1L_rl_samples": [
+   " three organs. The heart has three functions: your heart and",
+   " four kidneys.\nIn the heart of your heart. The",
+   " four hearts.\nThe heart: The heart of festivals is",
+   " heart and one connects to the heart. The heart’s heart"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-abu",
+  "prompt": "The capital city of the United Arab Emirates is",
+  "target": "Abu Dhabi",
+  "intermediates": [
+   "Abu Dhabi"
+  ],
+  "modulation_oracle_4bullets": "* capital city of UAE\n* capital of iran is\n* capital of the country named\n* of the capital city",
+  "karvonen27b_greedy": " known as:\nA. Abu Dhabi\nB. Dubai",
+  "karvonen27b_samples": [
+   " known as:\n\n<think>\nHere's a thinking process:",
+   " __________, whose capital is ___________________. The correct answer is",
+   " ________________.\n\nThe capital of the United Arab Emirates is",
+   " named ____.\n\n<think>\nHere's a thinking process:"
+  ],
+  "tiny1L_rl_greedy": " Dubai. The city is named after the UAE’s capital city",
+  "tiny1L_rl_samples": [
+   " Dubai. The city is known as the Baghdad city’s capital",
+   " then Dubai (known city center). The Egyptian government’s capital",
+   " Dubai, which is located in Egypt. The Egyptian city is",
+   " Cairo, which is named for Dubai. The UAE city is"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-addis",
+  "prompt": "The capital city of Ethiopia is",
+  "target": "Addis Ababa",
+  "intermediates": [
+   "Addis Ababa"
+  ],
+  "modulation_oracle_4bullets": "* capital of Ethiopia\n* capital city of Iran\n* is capital of ethiopia\n* of the capital city of the country",
+  "karvonen27b_greedy": " __________, which is also the capital of Ethiopia.\n",
+  "karvonen27b_samples": [
+   " ___, which is located at the center of the African continent",
+   " _____, and this city is the capital of Ethiopia.\n",
+   " ___; it is both the economic, political, geographic and",
+   " ______\n\n<think>\nHere's a thinking process:\n\n1"
+  ],
+  "tiny1L_rl_greedy": " Nairobi, which is the capital of Ethiopia. The Ethiopian city",
+  "tiny1L_rl_samples": [
+   ".ls city and is theambia city. The Ethiopiancapital city",
+   " Cambodia. The city is named for Ethiopia. The Ethiopian capital",
+   " ---------- City. The city is the Ethiopian capital of Egypt is",
+   " القاهرة, which is located in Ethiopia. The Ethiopian capital city"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-buenos",
+  "prompt": "The capital city of Argentina is",
+  "target": "Buenos Aires",
+  "intermediates": [
+   "Buenos Aires"
+  ],
+  "modulation_oracle_4bullets": "* capital city of Argentina\n* capital of Brazil is called\n* capital of country is\n* capital of Iran",
+  "karvonen27b_greedy": " __________, which is the capital of Argentina.\nThe",
+  "karvonen27b_samples": [
+   " known as:\nA. Buenos Aires\nB. Capital",
+   " known as ___．\nHint: A particular city within Argentina",
+   " named ___, and its capital is ___.\n- The",
+   " named __________. It is the capital of Argentina and is"
+  ],
+  "tiny1L_rl_greedy": " Paris, which is the capital of Argentina. The city is",
+  "tiny1L_rl_samples": [
+   " France, which is located in Bolivia.This host country is",
+   " Buenos City. The country is the capital of Buenos Giuliani,",
+   " hơi city. It is the?The Brazilian capital’s capital",
+   " Rome, which is the capital of Brazil. The Argentine logo"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-guatemala",
+  "prompt": "The capital city of Guatemala is",
+  "target": "Guatemala City",
+  "intermediates": [
+   "Guatemala City"
+  ],
+  "modulation_oracle_4bullets": "* capital city of Guatemala\n* capital of Mexico\n* ity capital of the country\n* capital of Iran",
+  "karvonen27b_greedy": " known as:\nA. Guatemala City\nB. Guatemala",
+  "karvonen27b_samples": [
+   " ____, which is pronounced_cityinte____.\nThe capital",
+   " ______________, and its capital city is Guatemala City.\n",
+   " known as:\n\n<think>\nHere's a thinking process:",
+   " known as ___\n- The capital of Guatemala is ___\n"
+  ],
+  "tiny1L_rl_greedy": " city, which is the capital of Guatemala. The Colombian city",
+  "tiny1L_rl_samples": [
+   " named Bangkok. The city is a national/assert town’s city",
+   " \"J miasta.\" The city is styled in Mexico; its",
+   " city of Medell Grammar. The city is the Chile's city",
+   "  city in México. It is the Filipino town's city"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-kuala",
+  "prompt": "The capital city of Malaysia is",
+  "target": "Kuala Lumpur",
+  "intermediates": [
+   "Kuala Lumpur"
+  ],
+  "modulation_oracle_4bullets": "* capital of Malaysia\n* capital city of Indonesia\n* of the country capital\n* is the centre of the country",
+  "karvonen27b_greedy": " __________.\nThe capital of Malaysia is Kuala Lumpur.",
+  "karvonen27b_samples": [
+   " ________, and its new name is now named Putrajaya",
+   " ___\nIs this city located in Malaysia or Singapore?\n",
+   " _____________.\n- The capital city of Malaysia is",
+   "\nA. Kuala Lumpur\nB. Putrajaya\n"
+  ],
+  "tiny1L_rl_greedy": " capital Bangkok. The city is located in Malaysia. The capital",
+  "tiny1L_rl_samples": [
+   " capital Tokyo and is called the Philippines. The Indonesian city is",
+   " ' swe umíst city and is the Singaporeedition. Singapore has",
+   " capital Bangkok. The country is located in Singapore. The capital",
+   " city and is the capital of Bangkok. This country's capital"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-mexico",
+  "prompt": "The capital city of Mexico is",
+  "target": "Mexico City",
+  "intermediates": [
+   "Mexico City"
+  ],
+  "modulation_oracle_4bullets": "* capital city of Mexico\n* is the capital of Spain\n* capital of the world\n* capital of the country in which you live",
+  "karvonen27b_greedy": " known as __________.\nThe capital of Mexico is Mexico",
+  "karvonen27b_samples": [
+   " known as:\nA. Mexico City\nB. Dublin",
+   " known as ___\n\n<think>\n\n</think>\n\nThe capital of Mexico",
+   " ______, which boasts a population of approximately 8.5",
+   " _________. It is named this because the city is the capital"
+  ],
+  "tiny1L_rl_greedy": "  city and is the Mexican capital. The Mexican city is",
+  "tiny1L_rl_samples": [
+   " B. The city is the Montreal population; this book is",
+   " as Paris; this city is named in Mexico. The city",
+   " patent city. The city is the Mexican city's Spanish capital",
+   " “Paris”; this capital is the Brazilian city. Rio capital"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-new",
+  "prompt": "The capital city of India is",
+  "target": "New Delhi",
+  "intermediates": [
+   "New Delhi"
+  ],
+  "modulation_oracle_4bullets": "* capital of India\n* is the capital city of China\n* capital of Pakistaan\n* capital of the country where you live",
+  "karvonen27b_greedy": " __________, and its capital is New Delhi. The capital",
+  "karvonen27b_samples": [
+   " a city called ____, and its official language is Hindi.",
+   " called Delhi, which is the capital of India, and its",
+   " New Delhi, which is a city. The capital of India",
+   " referred to as the \"c\" of India. The capital"
+  ],
+  "tiny1L_rl_greedy": " Delhi. The city is the capital of India; the city",
+  "tiny1L_rl_samples": [
+   " Delhi, which is an Indian city. The Delhi government is",
+   " Delhi. The city is known as the Indian city: Delhi",
+   " Delhi, which is the capital. India’s capital is located",
+   " Bangkok. It is named after India. The Indian Parliament is"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-panama",
+  "prompt": "The capital city of Panama is",
+  "target": "Panama City",
+  "intermediates": [
+   "Panama City"
+  ],
+  "modulation_oracle_4bullets": "* capital city of Costa Rica\n* capital of cuba is called\n* capital of iran\n* of the city capital",
+  "karvonen27b_greedy": " __________, which is also the capital of Panama.\n",
+  "karvonen27b_samples": [
+   " ___________: Panama City\nThe capital of Panama is very",
+   " the following:\n- Panama City\n- Its capital is",
+   " ______, which is the capital of the country of Panama.",
+   ":\n\n<think>\nHere's a thinking process:\n\n1"
+  ],
+  "tiny1L_rl_greedy": " city known as the Brazilian city. The Cuban city is located",
+  "tiny1L_rl_samples": [
+   " city, which is the Venezuelan capital! The Philippine airport is",
+   " capi city, which is known as Bahamas. This city is",
+   " Miami, which is known as Mexico. The lose city is",
+   " قدرة city and is a Indonesian city. This town is classified"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-phnom",
+  "prompt": "The capital city of Cambodia is",
+  "target": "Phnom Penh",
+  "intermediates": [
+   "Phnom Penh"
+  ],
+  "modulation_oracle_4bullets": "* capital city of Cambodia\n* capital of iran\n* of capital city of the country\n* is capital of vietnam",
+  "karvonen27b_greedy": " known as:\nA. Phnom Penh\nB",
+  "karvonen27b_samples": [
+   " known as _________?\nThe capital of Cambodia is Ph",
+   " ___. It is situated on the Tonle Sap River.",
+   " _____________, which is also the most popular language in",
+   " __________, located in the capital city __________, and"
+  ],
+  "tiny1L_rl_greedy": " Bangkok, which is the capital of Cambodia. The Vietnamese city",
+  "tiny1L_rl_samples": [
+   " 'China\", which is the Treat.city. The capital city",
+   " in Nepal. There is a capital city in Laos and is",
+   " Bangkok, which is the capital of Vietnam. The Chinese city",
+   " capital City. The city is朴 city in Cambodia’s capital"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-port",
+  "prompt": "The capital city of Trinidad and Tobago is",
+  "target": "Port of Spain",
+  "intermediates": [
+   "Port of Spain"
+  ],
+  "modulation_oracle_4bullets": "* capital city of Trinidad and Tobago\n* capital of kenya is called\n* city capital of the country\n* of the capital city of Iran",
+  "karvonen27b_greedy": " known as:\n- Port of Spain\n- Capital City",
+  "karvonen27b_samples": [
+   " known as:\nThe capital city of Trinidad and Tobago",
+   " named ______________ _______________, which is also the capital city",
+   " known as:\nThe current capital of Guyana is Ge",
+   " ____________, which is also the capital of the country."
+  ],
+  "tiny1L_rl_greedy": " \"City of Jamaica.\" The city is the Caribbean island located",
+  "tiny1L_rl_samples": [
+   " \"The city is the Caribbean city.\") This island's capital",
+   " titled City, and is the� borough. The Caribbean city",
+   " situated也不是 cristal city in Cambodia. This country's Emperor has",
+   " Brunei city. This city is the Brazilian town’s capital"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-san",
+  "prompt": "The capital city of Puerto Rico is",
+  "target": "San Juan",
+  "intermediates": [
+   "San Juan"
+  ],
+  "modulation_oracle_4bullets": "* capital city of the Dominican Republic\n* capital of the country of India\n* city capital of\n* capital of the Philippines",
+  "karvonen27b_greedy": " __________, and its name translates to \"capital city\"",
+  "karvonen27b_samples": [
+   " ___A__, and its entire name in English is San Juan",
+   " _________________, which is the capital city of the Commonwealth",
+   " titled _________________________.\nA. San Juan\nB",
+   " named __________, which is located in San Juan.\n"
+  ],
+  "tiny1L_rl_greedy": " city, which is the capital of Cuba. The city is",
+  "tiny1L_rl_samples": [
+   " city and is the most definitive city. The Mexican government is",
+   " \"вин city,” but the Brazilian capital. The Cuban city",
+   "  as city of Puerto City. The Philippine island is the",
+   " City, which is the capital of Jamaica. The province is"
+  ]
+ },
+ {
+  "name": "brmt-ent-cap-santo",
+  "prompt": "The capital city of the Dominican Republic is",
+  "target": "Santo Domingo",
+  "intermediates": [
+   "Santo Domingo"
+  ],
+  "modulation_oracle_4bullets": "* capital city of the Dominican Republic\n* capital of cuba is called\n* capital of country\n* capital of Iran",
+  "karvonen27b_greedy": " known as:\nA. Santo Domingo\nB. Santo",
+  "karvonen27b_samples": [
+   " __Santo Domingo______, and its capital city is __",
+   " ________________, which serves as the capital. The Spanish name",
+   " ______, which is also known as La Isabela, and",
+   " known as:\nA: Santo Domingo\nB: Santiago"
+  ],
+  "tiny1L_rl_greedy": "  city of Haiti. This city is the Cuban city located",
+  "tiny1L_rl_samples": [
+   " bytes представления السرعة city, which is in Haiti. This city",
+   "凡本网注明 city. The Dominican city is named Jamaica. The city",
+   " city, which is known in Brazil. This island’s capital",
+   " Marseille; this city is called the Caribbean. The Caribbean city"
+  ]
+ }
+]

@@ -1,0 +1,37 @@
+{
+ "n_items": 36,
+ "bench": "WorkspaceBench multihop-mt + multihop + basic-readout-mt (plain render, final prompt token, Qwen3.6-27B L42)",
+ "hit_rates": {
+  "modulation oracle (4 bullets, greedy)": {
+   "intermediate": 0.3611111111111111,
+   "target": 0.1111111111111111,
+   "either": 0.3888888888888889,
+   "n": 36
+  },
+  "27B Karvonen reader (greedy)": {
+   "intermediate": 0.3611111111111111,
+   "target": 0.4722222222222222,
+   "either": 0.5833333333333334,
+   "n": 36
+  },
+  "27B Karvonen reader (greedy + 4 samples)": {
+   "intermediate": 0.5277777777777778,
+   "target": 0.6666666666666666,
+   "either": 0.75,
+   "n": 36
+  },
+  "tiny 1L RL reader (greedy)": {
+   "intermediate": 0.19444444444444445,
+   "target": 0.05555555555555555,
+   "either": 0.25,
+   "n": 36
+  },
+  "tiny 1L RL reader (greedy + 4 samples)": {
+   "intermediate": 0.25,
+   "target": 0.08333333333333333,
+   "either": 0.3333333333333333,
+   "n": 36
+  }
+ },
+ "scoring": "case-insensitive whole-token substring match of any intermediate / target string in the readout(s)"
+}

@@ -1,0 +1,3 @@
+{"run": "av1_l63 (1 layer, ~1.9M rows, 15000 steps x 256 = ~2 epochs; sampler also re-drew rows across batches)",
+ "note": "CE on 1000 rows the model trained on vs 1000 held-out rows, per checkpoint",
+ "rows": [{"step": 2500, "trained_on": 4.607, "held_out": 4.819}, {"step": 15000, "trained_on": 3.304, "held_out": 4.726}]}

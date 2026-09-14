@@ -1,0 +1,93 @@
+[
+ {
+  "test": "v3 common",
+  "ckpt": "av2_12m",
+  "ce_correct": 3.7234128564596176,
+  "ce_zero": 5.545441746711731,
+  "ce_shuffled": 6.455775439739227
+ },
+ {
+  "test": "v3 common",
+  "ckpt": "av2_30m",
+  "ce_correct": 3.608081340789795,
+  "ce_zero": 5.493527859449387,
+  "ce_shuffled": 6.31487038731575
+ },
+ {
+  "test": "v3 common",
+  "ckpt": "av2_8m",
+  "ce_correct": 3.8364856243133545,
+  "ce_zero": 5.588981121778488,
+  "ce_shuffled": 6.46539244055748
+ },
+ {
+  "test": "v3 common",
+  "ckpt": "av4_12m",
+  "ce_correct": 3.577508419752121,
+  "ce_zero": 6.334449023008347,
+  "ce_shuffled": 6.42913094162941
+ },
+ {
+  "test": "v3 common",
+  "ckpt": "av4_8m",
+  "ce_correct": 3.617729276418686,
+  "ce_zero": 6.514595985412598,
+  "ce_shuffled": 6.42924490571022
+ },
+ {
+  "test": "v3 common",
+  "ckpt": "gdn1_8m",
+  "ce_correct": 3.995388478040695,
+  "ce_zero": 7.715009540319443,
+  "ce_shuffled": 6.562107145786285
+ },
+ {
+  "test": "v3 common",
+  "ckpt": "gdn2_30m",
+  "ce_correct": 3.5582114309072495,
+  "ce_zero": 5.87355563044548,
+  "ce_shuffled": 6.349217921495438
+ },
+ {
+  "test": "v3 common",
+  "ckpt": "gdn2_8m",
+  "ce_correct": 3.786993235349655,
+  "ce_zero": 5.838302940130234,
+  "ce_shuffled": 6.444293290376663
+ },
+ {
+  "test": "v3 common",
+  "ckpt": "gdn4_8m",
+  "ce_correct": 3.6465106308460236,
+  "ce_zero": 5.45201775431633,
+  "ce_shuffled": 6.37892758846283
+ },
+ {
+  "test": "v5 FRESH",
+  "ckpt": "av2_30m",
+  "ce_correct": 3.8113445192575455,
+  "ce_zero": 5.425338238477707,
+  "ce_shuffled": 6.059501737356186
+ },
+ {
+  "test": "v5 FRESH",
+  "ckpt": "av2_8m",
+  "ce_correct": 4.133785516023636,
+  "ce_zero": 5.65017706155777,
+  "ce_shuffled": 6.190241605043411
+ },
+ {
+  "test": "v5 FRESH",
+  "ckpt": "av4_12m",
+  "ce_correct": 3.9204630851745605,
+  "ce_zero": 6.28622305393219,
+  "ce_shuffled": 6.141846865415573
+ },
+ {
+  "test": "v5 FRESH",
+  "ckpt": "gdn2_30m",
+  "ce_correct": 3.7656010538339615,
+  "ce_zero": 5.843771129846573,
+  "ce_shuffled": 6.021454691886902
+ }
+]

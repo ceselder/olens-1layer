@@ -1,0 +1,61 @@
+{
+ "method": "closed-form ridge (linear+bias) from the FROZEN 27B block-42 state of the bare 12-token span to the real preceding h42; 2,002,440 training rows (harvest v1-v3 minus the common file); lambda sweep 1e1..1e6 (insensitive)",
+ "last_token_feats": {
+  "heldout_fve": 0.0882,
+  "heldout_cos": 0.7514,
+  "heldout_cos_centred": 0.2955,
+  "common_fve": 0.0911,
+  "common_cos": 0.7519
+ },
+ "last+mean_feats": {
+  "heldout_fve": 0.1401,
+  "heldout_cos": 0.7675,
+  "heldout_cos_centred": 0.3726,
+  "common_fve": 0.1439,
+  "common_cos": 0.7682
+ },
+ "lora_ar_reference_common_file": {
+  "fve": 0.2089,
+  "cos": 0.788,
+  "cos_centred": 0.451
+ },
+ "per_token_span_states": {
+  "first4 (20k feats)": {
+   "common_fve": 0.1151,
+   "common_cos": 0.7595,
+   "heldout_cos_centred": 0.3328
+  },
+  "first8 (41k feats)": {
+   "common_fve": 0.1406,
+   "common_cos": 0.7674,
+   "heldout_cos_centred": 0.369
+  },
+  "all12 (61k feats)": {
+   "common_fve": 0.1537,
+   "common_cos": 0.7713,
+   "heldout_cos_centred": 0.3868
+  }
+ },
+ "embedding_only_feats": {
+  "what": "ridge from frozen Qwen token embeddings of the span (mean || last), NO 27B forward",
+  "n_rows": 2002440,
+  "heldout_fve": 0.0504,
+  "heldout_cos": 0.7398,
+  "heldout_cos_centred": 0.2289,
+  "common_fve": 0.05
+ },
+ "summary_token_feats": {
+  "'.' appended, state at the '.'": {
+   "common_fve": 0.09798515500179306,
+   "common_cos": 0.7540140513531657,
+   "heldout_cos_centred": 0.30594719796769626,
+   "heldout_fve": 0.09469414938044074
+  },
+  "'.' state \u2295 mean over span": {
+   "common_fve": 0.1444017714753878,
+   "common_cos": 0.7683545988961547,
+   "heldout_cos_centred": 0.3731133747673115,
+   "heldout_fve": 0.1406484021256812
+  }
+ }
+}

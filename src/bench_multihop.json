@@ -1,0 +1,953 @@
+[
+{
+"name": "mt-007-author",
+"prompt": "Fact: The author who created the secret agent with code number 007 is",
+"target": "Ian Fleming",
+"intermediates": [
+"James Bond"
+],
+"target_alts": [
+"Fleming"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 2
+}
+},
+{
+"name": "mt-100m-country",
+"prompt": "Fact: The home country of the sprinter who holds the men's 100-meter world record is",
+"target": "Jamaica",
+"intermediates": [
+"Usain Bolt"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+3
+],
+"target": 1
+}
+},
+{
+"name": "mt-1912-director",
+"prompt": "Fact: The director of the 1997 romance film set aboard the ocean liner that sank in 1912 is",
+"target": "James Cameron",
+"intermediates": [
+"Titanic"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+1
+],
+"target": 2
+}
+},
+{
+"name": "mt-3hop-bigapple-ocean",
+"prompt": "Fact: The ocean that the river along the west side of the city nicknamed the Big Apple flows into is the",
+"target": "Atlantic",
+"intermediates": [
+"New York City",
+"Hudson River"
+],
+"prompt_allowed": [
+"city",
+"river"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+3,
+2
+],
+"target": 1
+}
+},
+{
+"name": "mt-3hop-sevensamurai-currency",
+"prompt": "Fact: The currency of the birth country of the director of Seven Samurai is the",
+"target": "yen",
+"intermediates": [
+"Akira Kurosawa",
+"Japan"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 0.9,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+5,
+1
+],
+"target": 1
+}
+},
+{
+"name": "mt-ad79-volcano",
+"prompt": "Fact: The volcano whose eruption in AD 79 buried the Roman city rediscovered near modern Naples is Mount",
+"target": "Vesuvius",
+"intermediates": [
+"Pompeii"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 3
+}
+},
+{
+"name": "mt-agra-emperor",
+"prompt": "Fact: The Mughal emperor who built the white marble mausoleum in Agra was",
+"target": "Shah Jahan",
+"intermediates": [
+"Taj Mahal"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+3
+],
+"target": 3
+}
+},
+{
+"name": "mt-amharic-capital",
+"prompt": "Fact: The capital of the country whose working language is Amharic is",
+"target": "Addis Ababa",
+"intermediates": [
+"Ethiopia"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+1
+],
+"target": 4
+}
+},
+{
+"name": "mt-angkor-capital",
+"prompt": "Fact: The capital of the country home to the temple complex of Angkor Wat is",
+"target": "Phnom Penh",
+"intermediates": [
+"Cambodia"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+1
+],
+"target": 4
+}
+},
+{
+"name": "mt-arctic-bear-prey",
+"prompt": "Fact: The marine mammals that the great white bear of the Arctic mainly hunts are",
+"target": "seals",
+"intermediates": [
+"polar bear"
+],
+"prompt_allowed": [
+"bear"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 1
+}
+},
+{
+"name": "mt-arith-add-div",
+"prompt": "(31 + 49) / 4 = ",
+"target": "20",
+"intermediates": [
+"80"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+3
+],
+"target": 3
+}
+},
+{
+"name": "mt-arith-div-add",
+"prompt": "96 / 4 + 17 = ",
+"target": "41",
+"intermediates": [
+"24"
+],
+"source": "staging_mt",
+"consistency": 1.0,
+"consistency_strict": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+3
+],
+"target": 3
+}
+},
+{
+"name": "atomic-26-symbol",
+"prompt": "Fact: The chemical symbol for the element with atomic number 26 is ",
+"target": "Fe",
+"intermediates": [
+"iron"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain_stripped",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "atomic-79-symbol",
+"prompt": "Fact: The chemical symbol for the element with atomic number 79 is ",
+"target": "Au",
+"intermediates": [
+"gold"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "birthstone-emerald-month",
+"prompt": "Fact: Emerald is the birthstone for month number ",
+"target": "5",
+"intermediates": [
+"May"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "chem-bones-Z",
+"prompt": "Fact: The atomic number of the metal most abundant in human bones is ",
+"target": "20",
+"intermediates": [
+"calcium"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "chem-organic-Z",
+"prompt": "Fact: The atomic number of the element present in all organic compounds by definition is ",
+"target": "6",
+"intermediates": [
+"carbon"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "chem-photosynthesis-Z",
+"prompt": "Fact: The atomic number of the gas that plants release during photosynthesis is ",
+"target": "8",
+"intermediates": [
+"oxygen"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "dbl-altitude-antonym",
+"prompt": "Fact: The antonym of how you would describe an airplane's cruising altitude is \"",
+"target": "low",
+"intermediates": [
+"high"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "double-dice-faces",
+"prompt": "Fact: Double the number of faces on a standard die is ",
+"target": "12",
+"intermediates": [
+"6",
+"six"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "etym-caesar-monthnum",
+"prompt": "Fact: The month named after Julius Caesar is month number ",
+"target": "7",
+"intermediates": [
+"July"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "firstletter-valentines-month",
+"prompt": "Fact: The first letter of the month containing Valentine's Day is \"",
+"target": "F",
+"intermediates": [
+"February"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "func-filters-count",
+"prompt": "Fact: In humans, the number of organs that filter blood to make urine is ",
+"target": "2",
+"intermediates": [
+"kidney"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "func-pumps-chambers",
+"prompt": "Fact: In humans, the organ that pumps blood through the body has this many chambers: ",
+"target": "4",
+"intermediates": [
+"heart"
+],
+"source": "jlens_source",
+"consistency": 1.0,
+"gate_variant": "plain",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+}
+},
+{
+"name": "brmt-ent-cap-abu",
+"subfamily": "entity",
+"prompt": "The capital city of the United Arab Emirates is",
+"target": "Abu Dhabi",
+"intermediates": [
+"Abu Dhabi"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"Abu Dhabi"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 2
+}
+},
+{
+"name": "brmt-ent-cap-addis",
+"subfamily": "entity",
+"prompt": "The capital city of Ethiopia is",
+"target": "Addis Ababa",
+"intermediates": [
+"Addis Ababa"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"Addis Ababa"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+4
+],
+"target": 4
+}
+},
+{
+"name": "brmt-ent-cap-buenos",
+"subfamily": "entity",
+"prompt": "The capital city of Argentina is",
+"target": "Buenos Aires",
+"intermediates": [
+"Buenos Aires"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"Buenos Aires"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 2
+}
+},
+{
+"name": "brmt-ent-cap-guatemala",
+"subfamily": "entity",
+"prompt": "The capital city of Guatemala is",
+"target": "Guatemala City",
+"intermediates": [
+"Guatemala City"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"Guatemala City"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 2
+}
+},
+{
+"name": "brmt-ent-cap-kuala",
+"subfamily": "entity",
+"prompt": "The capital city of Malaysia is",
+"target": "Kuala Lumpur",
+"intermediates": [
+"Kuala Lumpur"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"Kuala Lumpur"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 2
+}
+},
+{
+"name": "brmt-ent-cap-mexico",
+"subfamily": "entity",
+"prompt": "The capital city of Mexico is",
+"target": "Mexico City",
+"intermediates": [
+"Mexico City"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"Mexico City"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 2
+}
+},
+{
+"name": "brmt-ent-cap-new",
+"subfamily": "entity",
+"prompt": "The capital city of India is",
+"target": "New Delhi",
+"intermediates": [
+"New Delhi"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"New Delhi"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 2
+}
+},
+{
+"name": "brmt-ent-cap-panama",
+"subfamily": "entity",
+"prompt": "The capital city of Panama is",
+"target": "Panama City",
+"intermediates": [
+"Panama City"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"Panama City"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 2
+}
+},
+{
+"name": "brmt-ent-cap-phnom",
+"subfamily": "entity",
+"prompt": "The capital city of Cambodia is",
+"target": "Phnom Penh",
+"intermediates": [
+"Phnom Penh"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"Phnom Penh"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+4
+],
+"target": 4
+}
+},
+{
+"name": "brmt-ent-cap-port",
+"subfamily": "entity",
+"prompt": "The capital city of Trinidad and Tobago is",
+"target": "Port of Spain",
+"intermediates": [
+"Port of Spain"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"Port of Spain"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+3
+],
+"target": 3
+}
+},
+{
+"name": "brmt-ent-cap-san",
+"subfamily": "entity",
+"prompt": "The capital city of Puerto Rico is",
+"target": "San Juan",
+"intermediates": [
+"San Juan"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"San Juan"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 2
+}
+},
+{
+"name": "brmt-ent-cap-santo",
+"subfamily": "entity",
+"prompt": "The capital city of the Dominican Republic is",
+"target": "Santo Domingo",
+"intermediates": [
+"Santo Domingo"
+],
+"units": [
+{
+"role": "readout",
+"lang": "en",
+"headline": true,
+"match": [
+"Santo Domingo"
+]
+}
+],
+"consistency": 1.0,
+"source": "brmt-v1",
+"gate_variant": "chat",
+"eval_render": "plain",
+"readout": {
+"kind": "final_prompt_token",
+"offsets": [
+-1
+]
+},
+"probe_token_lens": {
+"intermediates": [
+2
+],
+"target": 2
+}
+}
+]

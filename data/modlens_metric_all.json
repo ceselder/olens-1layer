@@ -1,0 +1,71 @@
+{
+ "note": "modulation oracle's own metric: target unit(J42 h - amu), their AR embeds bullets/spans, exact NNLS over 4, delta = matched - permuted; 256 fresh-file REAL activations",
+ "rows": {
+  "modulation oracle rl-step50": {
+   "matched": 0.146221868621069,
+   "permuted": 0.04767856135731563,
+   "delta": 0.09854330726375338,
+   "greedy_K1_delta": null
+  },
+  "27B Karvonen reader (4 sampled spans)": {
+   "matched": 0.13435113560262835,
+   "permuted": 0.04910213275979913,
+   "delta": 0.08524900284282921,
+   "greedy_K1_delta": 0.08177146699017612
+  },
+  "tiny olrl_L1_loraAR_2048x16/final.pt (4 sampled spans, adapter)": {
+   "matched": 0.13177029653161298,
+   "permuted": 0.048848090023966506,
+   "delta": 0.08292220650764648,
+   "greedy_K1_delta": 0.09120902515678608
+  },
+  "tiny olrl_fwL2_loraAR_2048x16/step_001100.pt (4 sampled spans, adapter)": {
+   "matched": 0.12809905090398388,
+   "permuted": 0.048874828851694474,
+   "delta": 0.0792242220522894,
+   "greedy_K1_delta": 0.08788922188796278
+  },
+  "modulation oracle rl-step25": {
+   "matched": 0.1428521826674114,
+   "permuted": 0.048717597041104455,
+   "delta": 0.09413458562630694,
+   "greedy_K1_delta": null
+  },
+  "tiny olrl_L1_modlens_2048x16/step_001400.pt (4 sampled spans, adapter)": {
+   "matched": 0.1639903729155776,
+   "permuted": 0.05054989133259369,
+   "delta": 0.11344048158298392,
+   "greedy_K1_delta": 0.11789843373753683
+  },
+  "tiny olrl_fwL2_modlens_2048x16/step_001350.pt (4 sampled spans, adapter)": {
+   "matched": 0.16087356011848897,
+   "permuted": 0.04948313578097441,
+   "delta": 0.11139042433751456,
+   "greedy_K1_delta": 0.11381386971424945
+  },
+  "modulation oracle sft": {
+   "matched": 0.10809802053154272,
+   "permuted": 0.049136600600832026,
+   "delta": 0.05896141993071069,
+   "greedy_K1_delta": null
+  },
+  "tiny small_d1024L1_30m/final.pt (4 sampled spans, adapter)": {
+   "matched": 0.0945605593478831,
+   "permuted": 0.04831906172876188,
+   "delta": 0.04624149761912122,
+   "greedy_K1_delta": 0.057424673719651764
+  },
+  "tiny olrl_L1_loraAR_2048x16/step_001100.pt (4 sampled spans, adapter)": {
+   "matched": 0.13104789017233998,
+   "permuted": 0.04819272025997634,
+   "delta": 0.08285516991236364,
+   "greedy_K1_delta": 0.08995082002002164
+  },
+  "27B Karvonen reader, RL'd vs modulation-lens reward (step 80, 256x8)": {
+   "matched": 0.211,
+   "permuted": 0.0461,
+   "delta": 0.1648,
+   "greedy_K1_delta": 0.1593
+  }
+ }
+}

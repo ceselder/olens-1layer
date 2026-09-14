@@ -1,0 +1,14 @@
+{
+ "note": "own held-out slice (harvest_v2 shard00 first 2000 rows), same 8M single pass (6.96M examples), min eval CE",
+ "attention": {
+  "1L": 3.9846,
+  "2L": 3.8092,
+  "4L": 3.6033
+ },
+ "gdn": {
+  "1L": 3.9651,
+  "2L": 3.7489,
+  "4L": 3.6144
+ },
+ "attention_2L_12M_stream": 3.6959
+}

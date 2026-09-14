@@ -1,0 +1,148 @@
+{
+ "test_file": "/vol/data/harvest_v3/shard00_part0000.parquet",
+ "n_rows": 1024,
+ "n_tok": 12,
+ "note": "CE in nats on 12-token on-policy rollouts; soft token = real h42 (deployment condition) vs zero vector vs shuffled h42",
+ "results": {
+  "av1_l63_all (1 layer, ~3M rows)": {
+   "ce_correct": 4.3809,
+   "ce_zero": 9.0349,
+   "ce_shuffled": 7.0136,
+   "gap": 4.654,
+   "specificity": 2.6327
+  },
+  "av4_all (4 layers, ~3M rows)": {
+   "ce_correct": 4.295,
+   "ce_zero": 7.4656,
+   "ce_shuffled": 7.1606,
+   "gap": 3.1706,
+   "specificity": 2.8656
+  },
+  "av4_5m_b": {
+   "label": "4 layers, ~5M rows available, single pass (4.0M examples), real h42 in",
+   "ce_correct": 3.7609,
+   "ce_zero": 7.0581,
+   "ce_shuffled": 6.5136,
+   "gap": 3.2971,
+   "specificity": 2.7527
+  },
+  "av4_5m_arinv_b": {
+   "label": "4 layers, single pass (4.0M examples), trained as AR-inverter: AR_mse_v3(span) in -> span; TESTED with real h42 in",
+   "ce_correct": 5.945,
+   "ce_zero": 6.4611,
+   "ce_shuffled": 8.1658,
+   "gap": 0.5161,
+   "specificity": 2.2208
+  },
+  "av4_8m": {
+   "label": "4 layers, ~8M rows available, single pass (6.96M examples, 8 GPUs x batch 32), real h42 in",
+   "ce_correct": 3.6177,
+   "ce_zero": 6.5146,
+   "ce_shuffled": 6.4202,
+   "gap": 2.8969,
+   "specificity": 2.8025
+  },
+  "av4_12m": {
+   "label": "4 layers, ~12M rows available, single pass (8.6M examples, 8 GPUs x batch 32), real h42 in",
+   "ce_correct": 3.5775,
+   "ce_zero": 6.3344,
+   "ce_shuffled": 6.4588,
+   "gap": 2.7569,
+   "specificity": 2.8813
+  },
+  "av1_8m": {
+   "label": "1 layer, same 8M single pass as av4_8m (6.96M examples), real h42 in",
+   "ce_correct": 4.0127,
+   "ce_zero": 7.9722,
+   "ce_shuffled": 6.632,
+   "gap": 3.9595,
+   "specificity": 2.6193
+  },
+  "av2_8m": {
+   "label": "2 layers, same 8M single pass as av4_8m (6.96M examples), real h42 in",
+   "ce_correct": 3.8365,
+   "ce_zero": 5.589,
+   "ce_shuffled": 6.4399,
+   "gap": 1.7525,
+   "specificity": 2.6034
+  },
+  "av2_12m": {
+   "label": "av2_12m",
+   "ce_correct": 3.7234128564596176,
+   "ce_zero": 5.545441746711731,
+   "ce_shuffled": 6.455775439739227,
+   "gap": 1.8220288902521133,
+   "specificity": 2.7323625832796097
+  },
+  "av2_30m": {
+   "label": "av2_30m",
+   "ce_correct": 3.608081340789795,
+   "ce_zero": 5.493527859449387,
+   "ce_shuffled": 6.31487038731575,
+   "gap": 1.8854465186595917,
+   "specificity": 2.706789046525955
+  },
+  "gdn1_8m": {
+   "label": "gdn1_8m",
+   "ce_correct": 3.995388478040695,
+   "ce_zero": 7.715009540319443,
+   "ce_shuffled": 6.562107145786285,
+   "gap": 3.7196210622787476,
+   "specificity": 2.56671866774559
+  },
+  "gdn2_30m": {
+   "label": "gdn2_30m",
+   "ce_correct": 3.5582114309072495,
+   "ce_zero": 5.87355563044548,
+   "ce_shuffled": 6.349217921495438,
+   "gap": 2.315344199538231,
+   "specificity": 2.791006490588188
+  },
+  "gdn2_8m": {
+   "label": "gdn2_8m",
+   "ce_correct": 3.786993235349655,
+   "ce_zero": 5.838302940130234,
+   "ce_shuffled": 6.444293290376663,
+   "gap": 2.0513097047805786,
+   "specificity": 2.657300055027008
+  },
+  "gdn4_8m": {
+   "label": "gdn4_8m",
+   "ce_correct": 3.6465106308460236,
+   "ce_zero": 5.45201775431633,
+   "ce_shuffled": 6.37892758846283,
+   "gap": 1.8055071234703064,
+   "specificity": 2.732416957616806
+  }
+ },
+ "fresh_text_file": {
+  "test_file": "/vol/data/harvest_v5/shard00_part0000.parquet",
+  "note": "FineFineWeb documents disjoint from everything trained on; the v3 'common' file shares text positions with the old 25.7M-token corpus, so v3 scores are optimistic",
+  "results": {
+   "av2_30m": {
+    "ce_correct": 3.8113445192575455,
+    "ce_zero": 5.425338238477707,
+    "ce_shuffled": 6.059501737356186,
+    "specificity": 2.2481572180986404
+   },
+   "av2_8m": {
+    "ce_correct": 4.133785516023636,
+    "ce_zero": 5.65017706155777,
+    "ce_shuffled": 6.190241605043411,
+    "specificity": 2.0564560890197754
+   },
+   "av4_12m": {
+    "ce_correct": 3.9204630851745605,
+    "ce_zero": 6.28622305393219,
+    "ce_shuffled": 6.141846865415573,
+    "specificity": 2.2213837802410126
+   },
+   "gdn2_30m": {
+    "ce_correct": 3.7656010538339615,
+    "ce_zero": 5.843771129846573,
+    "ce_shuffled": 6.021454691886902,
+    "specificity": 2.2558536380529404
+   }
+  }
+ }
+}

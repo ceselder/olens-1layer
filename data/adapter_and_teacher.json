@@ -1,0 +1,39 @@
+{
+ "adapter": {
+  "what": "closed-form ridge P: real h42 -> expected LoRA-AR vector, fit on 2M (h42, AR(span)) pairs; reader = small_d1024L1_30m trained ONLY on AR vectors",
+  "eval_file": "harvest_v3/shard00_part0000 (512 rows)",
+  "CE_true_span": {
+   "input AR(span)": 2.756,
+   "input real h42": 7.259,
+   "input P(h42)": 5.743
+  },
+  "wfve_vs_real_h42_greedy_refit": {
+   "input AR(span)": 0.0506,
+   "input real h42": 0.0113,
+   "input P(h42)": 0.0686,
+   "ceiling AR(true span)": 0.076
+  }
+ },
+ "teacher_k1": {
+  "what": "nearest dictionary AR vector by whitened cosine (K=1 NN-OMP) for real activations; dictionary = 4.5M spans (harvest v1+v2 AR cache); queries = harvest_v3",
+  "n_activations_so_far": 754032,
+  "mean_best_whitened_cos": 0.3794,
+  "mean_best_wfve": 0.1551,
+  "true_span_wfve": 0.0781
+ },
+ "adapter_affine": {
+  "what": "P_aff: ridge h42 -> affine-AR vector; reader = affAR_small_d1024L1_12m (trained only on affine-AR vectors); reward model = affine AR",
+  "eval_file": "harvest_v3/shard00_part0000 (512 rows)",
+  "CE_true_span": {
+   "input AR_aff(span)": 1.516,
+   "input real h42": 9.009,
+   "input P_aff(h42)": 7.385
+  },
+  "wfve_vs_real_h42_greedy_refit": {
+   "input AR_aff(span)": 0.0217,
+   "input real h42": 0.0042,
+   "input P_aff(h42)": 0.0244,
+   "ceiling AR_aff(true span)": 0.0334
+  }
+ }
+}

@@ -1,0 +1,171 @@
+{
+ "eval": "paper-style inference on 512 REAL activations from the fresh test file: sample K=8 phrases -> AR -> NNLS in mean-centred whitened space -> whitened FVE",
+ "n": 512,
+ "k": 8,
+ "lora_ar_reward": {
+  "true_span_ceiling_wfve": 0.0696,
+  "sft_init small_d1024L1_30m": {
+   "greedy": 0.0086,
+   "mean_sampled": 0.0011,
+   "best_of_8": 0.005,
+   "nnls_8": 0.0062
+  },
+  "rl_step_1150 (128x8, 1 GPU)": {
+   "greedy": 0.0207,
+   "mean_sampled": 0.0098,
+   "best_of_8": 0.027,
+   "nnls_8": 0.0314
+  }
+ },
+ "affine_ar_reward": {
+  "true_span_ceiling_wfve": 0.0271,
+  "sft_init affAR_small_d1024L1_12m": {
+   "greedy": 0.0039,
+   "mean_sampled": 0.0007,
+   "best_of_8": 0.0023,
+   "nnls_8": 0.0032
+  },
+  "rl_step_1450 (128x8, 1 GPU)": {
+   "greedy": 0.0133,
+   "mean_sampled": 0.0087,
+   "best_of_8": 0.0183,
+   "nnls_8": 0.0246
+  }
+ },
+ "seed_sft_readers (LoRA-AR reward, raw h42 input, fresh file, 512 rows)": {
+  "true_span_ceiling_wfve": 0.0696,
+  "seedsft_L1_from_rh42 (teacher SFT, init real-h42 reader)": {
+   "greedy": 0.0614,
+   "mean_sampled": 0.0225,
+   "best_of_8": 0.0628,
+   "nnls_8": 0.0777
+  },
+  "seedsft_L1_scratch (teacher SFT from scratch)": {
+   "greedy": 0.0361,
+   "mean_sampled": 0.0121,
+   "best_of_8": 0.0389,
+   "nnls_8": 0.0476
+  },
+  "rh42_small_d1024L1_12m (real-h42 futurelens reader, no teacher)": {
+   "greedy": 0.0453,
+   "mean_sampled": 0.0175,
+   "best_of_8": 0.05,
+   "nnls_8": 0.0615
+  },
+  "adapter start: small_d1024L1_30m via P(h42) (v3 file)": {
+   "greedy": 0.0686,
+   "ceiling_v3": 0.076
+  }
+ },
+ "big_rl_2048x16_greedy_wfve_progress": {
+  "note": "4 GPUs x 512x16, adapter start unless noted, LoRA-AR reward, no KL; held-out slice ceiling (true span) 0.074",
+  "narrow 1L attn+MLP 28M": {
+   "step0": 0.063,
+   "step25": 0.096,
+   "step100": 0.112,
+   "step1100": 0.1379
+  },
+  "full-width 2L attn+MLP 63M": {
+   "step0": 0.048,
+   "step100": 0.103,
+   "step1075": 0.1364
+  },
+  "full-width 1L attention-only 64h 21M": {
+   "step0": 0.03,
+   "step75": 0.071,
+   "step1100": 0.098
+  },
+  "affine-AR 1L (affine reward, ceiling 0.033)": {
+   "step0": 0.024,
+   "step75": 0.041,
+   "step1325": 0.0618
+  }
+ },
+ "baseline_27b_karvonen_inverter_ce": {
+  "note": "27B + rsLoRA + layer-1 injection, AR-inverter on the same 12M rows, eff batch 256, lr 3e-5",
+  "step2500": 1.8645,
+  "step3000": 1.8256,
+  "shallow_1L_30M_rows_for_reference": 2.634
+ },
+ "matched_12M_inverter_ce": {
+  "note": "AR-inverter CE (span | LoRA-AR vector), own held-out, single pass over the SAME 12M rows (v1..v4)",
+  "small_d1024L1 (28M)": 2.984,
+  "fw_L2_i1024_m1024 (63M)": 2.841,
+  "27B + rsLoRA + Karvonen inject (running)": {
+   "step3589": 1.794
+  }
+ },
+ "naturalness_across_rl_steps (1L narrow, adapter input, LoRA reward; fresh file 512 rows)": {
+  "true_span_ceiling_wfve": 0.0696,
+  "true_span_27B_nll_per_token": 4.671,
+  "sft_start": {
+   "greedy_wfve": 0.065,
+   "nnls_8": 0.0878,
+   "nll_greedy": 3.997,
+   "nll_sampled": 6.377
+  },
+  "rl_step_50": {
+   "greedy_wfve": 0.0903,
+   "nnls_8": 0.1292,
+   "nll_greedy": 4.582,
+   "nll_sampled": 6.939
+  },
+  "rl_step_100": {
+   "greedy_wfve": 0.0985,
+   "nnls_8": 0.1403,
+   "nll_greedy": 4.854,
+   "nll_sampled": 7.151
+  },
+  "rl_step_250 (2048x16)": {
+   "greedy_wfve": 0.1086,
+   "nnls_8": 0.1499,
+   "nll_greedy": 5.232,
+   "nll_sampled": 7.175
+  },
+  "rl_step_500 (2048x16)": {
+   "greedy_wfve": 0.1152,
+   "nnls_8": 0.1585,
+   "nll_greedy": 5.424,
+   "nll_sampled": 7.225
+  },
+  "rl_step_1100 (2048x16)": {
+   "greedy_wfve": 0.1231,
+   "nnls_8": 0.1703,
+   "nll_greedy": 5.746,
+   "nll_sampled": 7.272
+  }
+ },
+ "baseline_27b_karvonen_paper_style_eval": {
+  "note": "27B + rsLoRA + Karvonen L1 injection, AR-inverter SFT only (no RL, no adapter), step 5000 of 41k; fresh file, 256 real activations, LoRA-AR reward model",
+  "raw h42 input": {
+   "greedy_wfve": 0.1185,
+   "mean_sampled_wfve": 0.0944,
+   "best_of_8_wfve": 0.1646,
+   "nnls_8_wfve": 0.1891,
+   "true_span_ceiling_wfve": 0.0742,
+   "lm_nll_greedy": 4.269,
+   "lm_nll_true": 4.711
+  },
+  "adapter P(h42) input": {
+   "greedy_wfve": 0.0681,
+   "mean_sampled_wfve": 0.0536,
+   "best_of_8_wfve": 0.1161,
+   "nnls_8_wfve": 0.1328,
+   "lm_nll_greedy": 4.5724,
+   "lm_nll_sampled": 5.4396
+  },
+  "FINAL (41k steps) raw h42 input": {
+   "greedy_wfve": 0.122,
+   "mean_sampled_wfve": 0.099,
+   "best_of_8_wfve": 0.1647,
+   "nnls_8_wfve": 0.1881,
+   "lm_nll_greedy": 4.995,
+   "lm_nll_true": 4.711,
+   "inverter_ce_final": 1.1337
+  },
+  "FINAL adapter P(h42) input": {
+   "greedy_wfve": 0.0542,
+   "nnls_8_wfve": 0.1128
+  }
+ }
+}

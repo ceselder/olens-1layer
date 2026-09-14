@@ -1,0 +1,4 @@
+{"model": "av4_5m_arinv_b final (4 layers, trained on AR_mse_v3(span) -> span)", "test": "common file harvest_v3/shard00_part0000, 1024 rows, real h42 multiplied by a scale",
+ "ce_zero": 6.4611, "ce_shuffled": 8.1315,
+ "ce_correct_by_scale": {"0.40": 5.9292, "0.55": 5.9313, "0.70": 5.9358, "0.85": 5.9405, "1.00": 5.9450, "1.15": 5.9483},
+ "conclusion": "rescaling real h42 moves CE by <0.02 nats: the AR-inverter transfer failure is distributional/directional, not a norm mismatch"}

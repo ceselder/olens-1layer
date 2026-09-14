@@ -1,0 +1,100 @@
+{
+ "eval_file": "/vol/data/harvest_v5/shard00_part0000.parquet",
+ "n": 256,
+ "readers": {
+  "modulation oracle rl-step50": {
+   "matched": 0.146221868621069,
+   "permuted": 0.04767856135731563,
+   "delta": 0.09854330726375338,
+   "mean_bullets": 4.0,
+   "examples": [
+    "* If you missed joining last\n* want to enter this month's giveaway too\n* for later crafters if you haven't started yet\n* monthly challenge if you're new",
+    "* is also quite interesting game to play which offers\n* que resulta atractivo para los jugadores españoles\n* great variety that keeps it engaging\n* good game worth",
+    "* substance to deter pests from eating\n* pepper spray to irritate\n* cats hate use on plants to keep rabbits off\n* add chopped hot"
+   ]
+  },
+  "modulation oracle rl-step25": {
+   "matched": 0.1428521826674114,
+   "permuted": 0.048717597041104455,
+   "delta": 0.09413458562630694,
+   "mean_bullets": 4.0,
+   "examples": [
+    "* if you missed last week's giveaway\n* join in for more next month\n* new to this craft and want to add\n* monthly giveaway for anyone who",
+    "* is quite interesting and entertaining game to play\n* que ofrece variedad y que te mantenga enganchado\n* good for a game that offers a lot of variety\n* likely to appeal to fans of similar games and",
+    "* to deter cats from eating your plants\n* pepper to deter pests\n* a spicy ingredient used to make animals taste bad to\n* or grind up raw garlic and rub it on"
+   ]
+  },
+  "27B Karvonen reader (4 sampled spans)": {
+   "matched": 0.13435113560262835,
+   "permuted": 0.04910213275979913,
+   "delta": 0.08524900284282921,
+   "greedy_K1": {
+    "matched": 0.1235064151496772,
+    "permuted": 0.04173494815950107,
+    "delta": 0.08177146699017612
+   },
+   "examples": [
+    [
+     "you're already missing a challenge... remember those giveaways are winners",
+     "you just thinking about entering this month? No problem! AND",
+     "you missed last month's challenges? Just jump in because ALL",
+     "you miss it today, remember you can catch up and claim"
+    ],
+    [
+     "makes it worth trying. Therefore, the game involves certain gameplay",
+     "makes this game quite worthwhile. Therefore, this means that the",
+     "makes this game worth playing. Therefore, recommendations depend on recommendations",
+     "makes it worth exploring. If you like this type of gameplay"
+    ]
+   ]
+  },
+  "tiny olrl_L1_modlens_2048x16/step_001400.pt (4 sampled spans, adapter)": {
+   "matched": 0.1639903729155776,
+   "permuted": 0.05054989133259369,
+   "delta": 0.11344048158298392,
+   "greedy_K1": {
+    "matched": 0.1612554552484653,
+    "permuted": 0.04335702151092846,
+    "delta": 0.11789843373753683
+   },
+   "examples": [
+    [
+     "FREE workshop! If you’re looking, but if you do",
+     "FREE newsletter! If you’re missing this week because if you",
+     "free webinar! If you’re interested – if you can now",
+     "FREE week! If you are价的! If you maybe if"
+    ],
+    [
+     "fantastic RPG game that offers great excitement; it can be enjoyable",
+     "fascinating game which is excellent fun experience that would be exciting games",
+     "fantastic玩游戏 gameplay which is interesting gameplay because it is interesting game",
+     "awesome gameplay concept is wonderful for exciting gameplay; it is interesting"
+    ]
+   ]
+  },
+  "tiny olrl_fwL2_modlens_2048x16/step_001350.pt (4 sampled spans, adapter)": {
+   "matched": 0.16087356011848897,
+   "permuted": 0.04948313578097441,
+   "delta": 0.11139042433751456,
+   "greedy_K1": {
+    "matched": 0.15760266096913256,
+    "permuted": 0.04378879125488311,
+    "delta": 0.11381386971424945
+   },
+   "examples": [
+    [
+     "fun workshop today! If you’re liking! So if you",
+     "recent newsletter! if you love! If you’re wondering if",
+     "upcoming newsletter! If you’re visiting... if you need is",
+     "recent webinar! If you liked this week! If you’re"
+    ],
+    [
+     "enjoyable gameplay which is incredibly enjoyable, different games that are exciting",
+     "fantastic gameplay, which is very troublesome ideas which offer wonderful gameplay",
+     "stunning gameplay which is very enjoyable. But this game is appealing",
+     "incredibly enjoyable game which provides very exciting games that fans like exciting"
+    ]
+   ]
+  }
+ }
+}

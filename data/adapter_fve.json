@@ -1,0 +1,20 @@
+{
+ "LoRA AR": {
+  "AR(true span) vs real h42: raw FVE": 0.20630574226379395,
+  "AR(true span) vs real h42: whitened centred FVE": 0.06491148471832275,
+  "P(h42) vs AR(span): raw FVE": 0.5076169371604919,
+  "P(h42) vs AR(span): whitened centred FVE": 0.18268948793411255,
+  "P(h42) vs AR(span): cos": 0.9593369364738464,
+  "P(h42) vs real h42: raw FVE": 0.3112282156944275,
+  "P(h42) vs real h42: whitened centred FVE": 0.13694119453430176
+ },
+ "affine AR": {
+  "AR(true span) vs real h42: raw FVE": 0.1429387331008911,
+  "AR(true span) vs real h42: whitened centred FVE": 0.027641892433166504,
+  "P(h42) vs AR(span): raw FVE": 0.48558247089385986,
+  "P(h42) vs AR(span): whitened centred FVE": 0.17412662506103516,
+  "P(h42) vs AR(span): cos": 0.9696565270423889,
+  "P(h42) vs real h42: raw FVE": 0.21686404943466187,
+  "P(h42) vs real h42: whitened centred FVE": 0.05769026279449463
+ }
+}

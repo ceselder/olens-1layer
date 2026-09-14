@@ -1,0 +1,44 @@
+{
+ "note": "same readers, same ~84M rows single pass; effective batch 16384 (8 GPUs x 2048) = 4954 steps, vs batch 2048 on 80M rows = 38.5k steps (lr 5e-4) or 30M rows = 17k steps. Own held-out CE.",
+ "batch16k_lr3e-4_84M": {
+  "5.5M d256L2": 4.026,
+  "14M d512L2": 3.456,
+  "40M d768L4": 2.884,
+  "66M d1024L4": 2.58,
+  "28M d1024L1": 3.241,
+  "63M fw_L2_i1024_m1024": 2.611
+ },
+ "batch16k_lr1e-4_84M": {
+  "28M d1024L1": 3.991
+ },
+ "batch16k_lr1e-3_84M": {
+  "28M d1024L1": 2.734
+ },
+ "batch2048_lr5e-4_80M": {
+  "5.5M d256L2": 3.265,
+  "14M d512L2": 2.675,
+  "40M d768L4": 2.111,
+  "66M d1024L4": 1.947
+ },
+ "batch2048_lr5e-4_30M": {
+  "28M d1024L1": 2.634,
+  "63M fw_L2_i1024_m1024": 2.593
+ },
+ "rl_lora_reward_on_small_d1024L1_30m": {
+  "sft_start": {
+   "gap": 0.869,
+   "cos_true": 0.872,
+   "ce_true": 2.758
+  },
+  "kl0.1_lr1.5e-5_3000steps": {
+   "gap": 0.87,
+   "ce_true": 3.827,
+   "kl": 17.0
+  },
+  "kl1.0_sft0.5_lr5e-6_1500steps": {
+   "gap": 0.876,
+   "ce_true": 2.797,
+   "kl": 0.47
+  }
+ }
+}

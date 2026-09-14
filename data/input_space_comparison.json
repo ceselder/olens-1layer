@@ -1,0 +1,33 @@
+{
+ "note": "same architectures, same 12M rows (v1..v4), effective batch 2048, lr 5e-4; only the INPUT vector differs. Own held-out slice, CE of the span given the input (nats/token)",
+ "inputs": {
+  "LoRA AR (ar_mse_v3) [30M rows]": {
+   "small d1024 L1 (28M)": 2.634,
+   "full-width L2 i1024+MLP1024 (63M)": 2.593,
+   "small d1024 L4 (66M)": 2.153
+  },
+  "affine AR (ridge on last+mean frozen states) [12M rows]": {
+   "small d1024 L1 (28M)": 1.466,
+   "full-width L2 i1024+MLP1024 (63M)": 1.229,
+   "small d1024 L4 (66M)": 1.137
+  },
+  "frozen block-42 reading state (modulation-lens dictionary vector) [12M rows]": {
+   "small d1024 L1 (28M)": 2.795,
+   "full-width L2 i1024+MLP1024 (63M)": 2.668,
+   "small d1024 L4 (66M)": 2.38
+  },
+  "affine AR vector [84M rows]": {
+   "small d1024 L1 (28M)": 0.807,
+   "full-width L2 i1024+MLP1024 (63M)": 0.784,
+   "small d1024 L4 (66M)": 0.467,
+   "small d512 L2 (14M)": 1.064
+  }
+ },
+ "linear_rnn_30m": {
+  "full-width linear RNN h_t = A h + B x (52M)": 3.696
+ },
+ "batch16k_lr1e-3_84m": {
+  "small d1024 L1 (28M)": 2.734,
+  "vs 30M rows @ batch 2048 lr 5e-4": 2.634
+ }
+}

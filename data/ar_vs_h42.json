@@ -1,0 +1,83 @@
+{
+ "file": "/vol/data/harvest_v3/shard00_part0000.parquet",
+ "n": 1024,
+ "av_h42": "/vol/ckpt/av4_12m/final.pt",
+ "av_ar": "/vol/ckpt/av4_5m_arinv_b/final.pt",
+ "ar": "/vol_data/ckpt/ar_mse_v3/final",
+ "stats": {
+  "cos(AR, h42)": 0.7880086898803711,
+  "cos_centred(AR-mu, h42-mu)": 0.4509660601615906,
+  "cos(mu, h42)": 0.7244713306427002,
+  "norm_ratio |AR|/|h42|": 0.8034361600875854,
+  "|h42| mean": 89.16665649414062,
+  "|AR| mean": 71.09968566894531,
+  "FVE raw (1 - |AR-h|^2 / |h-mu|^2)": 0.20885252952575684,
+  "residual |h42-AR| / |h42|": 0.6123696565628052,
+  "residual |h42-AR| / |h42-mu|": 0.8867670893669128,
+  "per-dim var ratio var(AR)/var(h42) (median)": 0.12985678017139435,
+  "per-dim var ratio (mean)": 0.14328233897686005,
+  "cos(residual, h42-mu)": 0.8774363994598389
+ },
+ "ce_matrix": {
+  "AV trained on real h42": {
+   "real h42": 3.5775083899497986,
+   "AR(span)": 3.3680075208346048,
+   "AR(span) norm-matched to |h42|": 3.365285257498423,
+   "residual h42-AR(span), norm-matched": 5.090514401594798,
+   "zero": 6.334449013074239,
+   "shuffled h42": 6.495792706807454
+  },
+  "AV trained on AR(span)": {
+   "real h42": 5.944991072018941,
+   "AR(span)": 2.12665656208992,
+   "AR(span) norm-matched to |h42|": 2.141589323679606,
+   "residual h42-AR(span), norm-matched": 6.639517227808635,
+   "zero": 6.461061517397563,
+   "shuffled h42": 8.214888095855713
+  }
+ },
+ "decodes": [
+  {
+   "true": " report on voice traffic patterns on any scale for any unit of",
+   "h42-AV <- real h42": " optimize the performance of call centers.\nThe system is designed",
+   "h42-AV <- AR(span)": " monitor the performance of the network and identify the most appropriate actions",
+   "AR-AV <- real h42": " analyze call volume and call volume and call volume and call volume",
+   "AR-AV <- AR(span)": " report on virtually any traffic pattern or service that can be of"
+  },
+  {
+   "true": ", 'Behold, while the child was still alive,",
+   "h42-AV <- real h42": ", “I am dead, I will not fear you,",
+   "h42-AV <- AR(span)": ", “Behold, I am going to the house of",
+   "AR-AV <- real h42": " “The guilt of the king” and the judgment will be",
+   "AR-AV <- AR(span)": ", \"Behold, the child of the Lord, now"
+  },
+  {
+   "true": " anymore (like some of their outfits made them with 1",
+   "h42-AV <- real h42": ", but you can be a good guy.\nI think",
+   "h42-AV <- AR(span)": ". I think it's a good thing to have a good",
+   "AR-AV <- real h42": " and I'm in my posts.\n- Rating: ",
+   "AR-AV <- AR(span)": " anymore (they look like they were wearing the same 1"
+  },
+  {
+   "true": "Construction production and repairs of highways, bridges and railways\nP",
+   "h42-AV <- real h42": "Steel and steel industry, chemical industry, metallurgy, construction",
+   "h42-AV <- AR(span)": "The company is a manufacturer of concrete batching plants, concrete batching",
+   "AR-AV <- real h42": " with steel and metal industry, metal and metal industry, machining",
+   "AR-AV <- AR(span)": "Construction of roads, railways, bridges and power plants\nR"
+  },
+  {
+   "true": "; the full spectrum of healthcare.\n\nInstitutions no longer",
+   "h42-AV <- real h42": ".\nThe American Academy of Periodontology (AAP) has",
+   "h42-AV <- AR(span)": ".\nThe current model of care is not a one-size",
+   "AR-AV <- real h42": ". Physical health, environmental health, and environmental health health health",
+   "AR-AV <- AR(span)": "; the full continuum of care.\nHealth care now is"
+  },
+  {
+   "true": " provides a great deal of discounts, particularly for making use of",
+   "h42-AV <- real h42": " is a great choice for those who are looking for a great",
+   "h42-AV <- AR(span)": " has a great deal of choices for you to make.\n",
+   "AR-AV <- real h42": " Insurance, a member of the family of Williamstown, Connecticut",
+   "AR-AV <- AR(span)": " provides a great deal of discounts, particularly for the purchase of"
+  }
+ ]
+}
